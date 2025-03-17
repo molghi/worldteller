@@ -1,9 +1,10 @@
 import { Provider } from "./context/MyContext";
+import Map from "./components/Map";
 
 function App() {
     return (
         <Provider>
-            <div>Worldteller</div>
+            <Map />
         </Provider>
     );
 }

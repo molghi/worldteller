@@ -1,6 +1,6 @@
 import { TimeZoneDBAPIKey, OpenWeatherMapAPIKey } from "../config";
 
-async function fetchCountryFacts(countryName) {
+async function fetchCountryFacts(countryName, additionalFetchFlag = true) {
     try {
         if (countryName === "United States of America") countryName = "United States"; // correction
 
@@ -15,9 +15,10 @@ async function fetchCountryFacts(countryName) {
         let dataFiltered;
         if (!result) dataFiltered = "Not found";
         else dataFiltered = filterCountryResponse(result);
+        if (!additionalFetchFlag) return dataFiltered;
         dataFiltered.capitalLocalTime = await getCapitalTime(dataFiltered.capitalCoords[0], dataFiltered.capitalCoords[1]);
         dataFiltered.capitalAirTemp = await getCapitalTemp(dataFiltered.capitalCoords[0], dataFiltered.capitalCoords[1]);
-        console.log(dataFiltered);
+        return dataFiltered;
     } catch (error) {
         console.log(error);
     }
@@ -35,13 +36,19 @@ function filterCountryResponse(result) {
         flagIcon: result.flag,
         flagImg: result.flags.png,
         population: result.population,
-        locationStart: "Milky Way, Solar System, Planet Terra,",
+        galaxy: "Milky Way",
+        galaxyGroup: "Local Group",
+        galaxyCluster: "Virgo Supercluster",
+        galaxySupercluster: "Laniakea Supercluster",
+        universe: "Observable Universe",
+        system: "Solar System",
+        planet: "Terra",
         continent: result.continents.join("-"),
         region: result.region,
         subregion: result.subregion,
         languages: Object.values(result.languages).join(", "),
-        nameEnglish: `${result.name.common} or ${result.name.official}`,
-        nameNative: `${Object.values(result.name.nativeName)[0].common} or ${Object.values(result.name.nativeName)[0].official}`,
+        nameEnglish: `${result.name.common} (${result.name.official})`,
+        nameNative: `${Object.values(result.name.nativeName)[0].common} (${Object.values(result.name.nativeName)[0].official})`,
         nameOnly: result.name.common,
         currencies: Object.values(result.currencies)
             .map((x) => x.name)

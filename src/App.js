@@ -1,10 +1,10 @@
 import { Provider } from "./context/MyContext";
-import Map from "./components/Map";
+import Main from "./components/Main";
 
 function App() {
     return (
         <Provider>
-            <Map />
+            <Main />
         </Provider>
     );
 }

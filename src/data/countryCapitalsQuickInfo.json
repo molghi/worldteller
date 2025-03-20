@@ -465,7 +465,8 @@
         "flag": "🇦🇶",
         "name": "Antarctica",
         "nameFull": "Antarctica",
-        "capital": ""
+        "capital": "(no capital)",
+        "capitalCoords": [-71.5, 11.0]
     },
     {
         "flag": "🇳🇱",
@@ -754,6 +755,13 @@
         "capitalCoords": [35.17, 33.37]
     },
     {
+        "flag": "",
+        "name": "Northern Cyprus",
+        "nameFull": "",
+        "capital": "Lefkoşa (North Nicosia)",
+        "capitalCoords": [35.1847, 33.3651]
+    },
+    {
         "flag": "🇨🇦",
         "name": "Canada",
         "nameFull": "Canada",
@@ -897,7 +905,7 @@
         "name": "Western Sahara",
         "nameFull": "Sahrawi Arab Democratic Republic",
         "capital": "El Aaiún",
-        "capitalCoords": [-13.28, 27.14]
+        "capitalCoords": [27.14, -13.28]
     },
     {
         "flag": "🇩🇲",
@@ -1059,6 +1067,13 @@
         "nameFull": "Federal Republic of Somalia",
         "capital": "Mogadishu",
         "capitalCoords": [2.07, 45.33]
+    },
+    {
+        "flag": "",
+        "name": "Somaliland",
+        "nameFull": "Somaliland",
+        "capital": "Hargeisa",
+        "capitalCoords": [9.556, 44.0633]
     },
     {
         "flag": "🇨🇿",

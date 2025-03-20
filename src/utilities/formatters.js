@@ -1,3 +1,5 @@
+// FORMATTING CAPITAL DATE-TIME, POPULATION, AND AREA (in modal window) IN A FRIENDLIER WAY
+
 function formatDateTime(dateTimeString) {
     const [date, time] = dateTimeString.split(" ").map((x) => x.trim());
     const timeDone = time
@@ -15,9 +17,10 @@ function formatDateTime(dateTimeString) {
     return `${dateDone} ${timeDone}`;
 }
 
+// ================================================================================================
+
 function formatPopulation(string) {
     let formatted = new Intl.NumberFormat("en-UK").format(+string);
-    // console.log(formatted);
     if (formatted.split(",").length === 2)
         formatted = formatted.split(",")[0] + "," + formatted.split(",")[1].slice(0, 1) + " thousand people";
     else if (formatted.split(",").length === 3)
@@ -26,12 +29,15 @@ function formatPopulation(string) {
     return formatted;
 }
 
+// ================================================================================================
+
 function formatArea(string) {
     let formatted = new Intl.NumberFormat("en-UK").format(+string);
-    // console.log(formatted);
     if (formatted.split(",").length === 3)
         formatted = formatted.split(",")[0] + "," + formatted.split(",")[1].slice(0, 1) + " mln";
     return formatted + " km²";
 }
+
+// ================================================================================================
 
 export { formatDateTime, formatPopulation, formatArea };

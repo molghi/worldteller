@@ -1,4 +1,5 @@
 // Function to assign random colour for each country
+
 const getRandomColour = () => {
     // COLORFUL:
     // const letters = "0123456789ABCDEF";

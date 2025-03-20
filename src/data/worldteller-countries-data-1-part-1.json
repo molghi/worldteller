@@ -44,7 +44,7 @@
     {
         "country": "China",
         "foundingDate": "1 October 1949 (People's Republic of China, after the Chinese Civil War)",
-        "historicalNames": "Empire of China, People's Republic of China",
+        "historicalNames": "Huaxia, Zhongguo, Han, Ming, Qing, Republic of China",
         "historicalCapitals": "Xi'an, Beijing, Nanjing",
         "historicalPopulation": "Varies (Han Empire approx. 60 million)",
         "historicalArea": "14,000,000 km² (Qing Empire at peak)",
@@ -58,7 +58,7 @@
     {
         "country": "Egypt",
         "foundingDate": "18 June 1953 (Republic of Egypt established after monarchy abolition)",
-        "historicalNames": "Ancient Egypt, Kingdom of Egypt, Arab Republic of Egypt",
+        "historicalNames": "Kemet, Ta-Mery, Hwt-ka-Ptah, Aigyptos, Misr, Kingdom of Egypt, United Arab Republic",
         "historicalCapitals": "Memphis, Thebes, Cairo",
         "historicalPopulation": "Varies (Ancient Egypt approx. 3-4 million)",
         "historicalArea": "1,000,000 km² (Egyptian Empire at peak)",
@@ -72,7 +72,7 @@
     {
         "country": "France",
         "foundingDate": "24 September 843 (Treaty of Verdun, emergence of the Kingdom of France)",
-        "historicalNames": "Kingdom of the Franks, Kingdom of France, French Empire",
+        "historicalNames": "Gallia, Kingdom of the Franks, Kingdom of France, French Empire",
         "historicalCapitals": "Paris, Versailles, Bordeaux",
         "historicalPopulation": "Varies (French Empire at peak approx. 40 million)",
         "historicalArea": "13,000,000 km² (French colonial empire at peak)",
@@ -86,7 +86,7 @@
     {
         "country": "Germany",
         "foundingDate": "3 October 1990 (Reunification of East and West Germany to form the modern Federal Republic of Germany)",
-        "historicalNames": "Holy Roman Empire, German Empire, Weimar Republic, Third Reich",
+        "historicalNames": "Germania, Holy Roman Empire of the German Nation, German Confederation, German Empire, Weimar Republic, Third Reich, German Democratic Republic and Federal Republic of Germany",
         "historicalCapitals": "Aachen, Berlin, Bonn, Frankfurt",
         "historicalPopulation": "Varies (German Empire at peak approx. 70 million)",
         "historicalArea": "13,000,000 km² (German Empire and colonial empire at peak)",
@@ -100,7 +100,7 @@
     {
         "country": "Greece",
         "foundingDate": "25 March 1821 (Greek War of Independence, foundation of modern Greece)",
-        "historicalNames": "Hellenic Republic, Kingdom of Greece, Ancient Greece",
+        "historicalNames": "Hellas, Graecia, Byzantium, Eastern Roman Empire, Ottoman Greece, Kingdom of Greece",
         "historicalCapitals": "Athens, Sparta, Corinth",
         "historicalPopulation": "Varies (Ancient Greece approx. 10 million)",
         "historicalArea": "2,500,000 km² (Greek Empire, including the Hellenistic period)",
@@ -128,7 +128,7 @@
     {
         "country": "Israel",
         "foundingDate": "14 May 1948 (Establishment of the State of Israel)",
-        "historicalNames": "Kingdom of Israel, Kingdom of Judah, Mandate of Palestine",
+        "historicalNames": "Canaan, Land of Yisrael, Kingdom of Israel, Kingdom of Judah, Judea, Syria Palaestina, Kingdom of Jerusalem, Ottoman Syria",
         "historicalCapitals": "Jerusalem, Tel Aviv, Haifa, Jaffa, Samaria, Hebron",
         "historicalPopulation": "Varies, peak around 1 million (ancient Israel)",
         "historicalArea": "Varies, ancient Israel size 20,000 km²",
@@ -142,7 +142,7 @@
     {
         "country": "Italy",
         "foundingDate": "17 March 1861 (Kingdom of Italy established)",
-        "historicalNames": "Roman Empire, Kingdom of Sicily, Papal States, Kingdom of Italy",
+        "historicalNames": "Italia, Roman Republic, Roman Empire, Byzantine Italy, Lombard Kingdom, Papal States, Kingdom of Italy, Kingdom of Sicily, Kingdom of Naples",
         "historicalCapitals": "Rome, Florence, Milan, Turin",
         "historicalPopulation": "Varies, Roman Empire at its peak 50-70 million",
         "historicalArea": "Varies, Roman Empire size around 5 million km²",
@@ -156,8 +156,8 @@
     {
         "country": "Russia",
         "foundingDate": "25 December 1991 (Russian Federation, after the dissolution of the Soviet Union)",
-        "historicalNames": "Kievan Rus, Tsardom of Russia, Russian Empire, Soviet Union",
-        "historicalCapitals": "Kiev, Moscow, St. Petersburg",
+        "historicalNames": "Garðaríki, Kievan Rus, Vladimir-Suzdal, Muscovy, Tsardom of Russia, Russian Empire, Soviet Union (USSR)",
+        "historicalCapitals": "Novgorod, Kiev, Vladimir, Moscow, St. Petersburg",
         "historicalPopulation": "Varies, Russian Empire: ~125 million. Soviet Union: 290 million.",
         "historicalArea": "Russian Empire: ~22.4 million km²",
         "languageFamily": "Indo-European (Slavic), Old East Slavic as a notable historical ancestor",
@@ -170,7 +170,7 @@
     {
         "country": "Turkey",
         "foundingDate": "29 October 1923 (Republic of Turkey, after the fall of the Ottoman Empire)",
-        "historicalNames": "Byzantine Empire, Ottoman Empire, Anatolia, Seljuk Sultanate of Rum",
+        "historicalNames": "Anatolia, Asia Minor, Byzantine Empire, Seljuk Sultanate of Rum, Ottoman Empire",
         "historicalCapitals": "Constantinople (Istanbul), Ankara, Bursa",
         "historicalPopulation": "Ottoman Empire: ~35 million",
         "historicalArea": "Ottoman Empire: ~5.2 million km²",
@@ -184,7 +184,7 @@
     {
         "country": "United Kingdom",
         "foundingDate": "1 January 1707 (Acts of Union between England and Scotland, forming Great Britain)",
-        "historicalNames": "Kingdom of England, Kingdom of Scotland, Kingdom of Great Britain, British Empire",
+        "historicalNames": "Albion, Britannia, Angleland, Kingdom of England, Kingdom of Scotland",
         "historicalCapitals": "London, Edinburgh, Dublin, Cardiff",
         "historicalPopulation": "Varies (British Empire peak approx. 400 million)",
         "historicalArea": "35,000,000 km² (British Empire peak)",
@@ -198,7 +198,7 @@
     {
         "country": "United States of America",
         "foundingDate": "4 July 1776 (Declaration of Independence from Britain, the foundation of the United States)",
-        "historicalNames": "Thirteen Colonies, New Spain",
+        "historicalNames": "Vinland, New Spain, New France, Virginia, Plymouth Colony, New Netherland, Thirteen Colonies, United Colonies",
         "historicalCapitals": "Philadelphia, New York City, Washington D.C.",
         "historicalPopulation": "Pre-colonial: Indigenous population ~10 million, peak: ~300 million today",
         "historicalArea": "22,000,000 km² (includes territorial possessions during peak)",
@@ -282,7 +282,7 @@
     {
         "country": "Denmark",
         "foundingDate": "10th century (Generally regarded as the unification of Denmark around 965 AD under King Harald Bluetooth)",
-        "historicalNames": "Kingdom of Denmark, Danish Empire",
+        "historicalNames": "Danmark, Danish Kingdom, Danish Empire",
         "historicalCapitals": "Copenhagen, Roskilde",
         "historicalPopulation": "Varies (Danish Empire approx. 3 million)",
         "historicalArea": "2,210,000 km² (Danish Empire at peak)",
@@ -310,7 +310,7 @@
     {
         "country": "India",
         "foundingDate": "15 August 1947 (Independence from Britain, establishment of modern India)",
-        "historicalNames": "British India, Bharat, Mughal Empire, Maurya Empire",
+        "historicalNames": "Bharat, Jambudvipa, Aryavarta, Indus Valley, Hindustan, British India, East India, Indian Empire",
         "historicalCapitals": "Delhi, Agra, Pataliputra",
         "historicalPopulation": "Varies (Mughal Empire approx. 150 million)",
         "historicalArea": "4,500,000 km² (British Empire at peak)",
@@ -324,7 +324,7 @@
     {
         "country": "Iran",
         "foundingDate": "1 April 1979 (Islamic Republic of Iran, after the revolution)",
-        "historicalNames": "Persia, Persian Empire, Sassanian Empire",
+        "historicalNames": "Persia, Aryanem Vaejah, Elam, Parthian Empire, Sassanian Empire",
         "historicalCapitals": "Persepolis, Isfahan, Tehran",
         "historicalPopulation": "Varies (Sassanian Empire approx. 10 million)",
         "historicalArea": "3,300,000 km² (Persian Empire at peak)",
@@ -338,7 +338,7 @@
     {
         "country": "Iraq",
         "foundingDate": "3 October 1932 (Kingdom of Iraq; modern state following British mandate)",
-        "historicalNames": "Mesopotamia, Kingdom of Iraq",
+        "historicalNames": "Sumer, Akkad, Babylonia, Assyria, Mesopotamia, Kingdom of Iraq",
         "historicalCapitals": "Babylon, Baghdad, Basra",
         "historicalPopulation": "Varies (Mesopotamian empires approx. 10-15 million)",
         "historicalArea": "437,072 km² (Ottoman Empire at peak)",
@@ -352,7 +352,7 @@
     {
         "country": "Ireland",
         "foundingDate": "6 December 1922 (Establishment of the Irish Free State)",
-        "historicalNames": "Hibernia, Kingdom of Ireland, Irish Free State",
+        "historicalNames": "Éire, Hibernia, Scotia, Kingdom of Ireland, Irish Free State",
         "historicalCapitals": "Dublin, Kilkenny",
         "historicalPopulation": "Varies (Kingdom of Ireland approx. 1.5 million)",
         "historicalArea": "84,421 km² (current)",
@@ -366,7 +366,7 @@
     {
         "country": "Japan",
         "foundingDate": "3 May 1947 (Constitution of Japan after WWII, modern state formation)",
-        "historicalNames": "Empire of Japan, Nippon",
+        "historicalNames": "Wa, Nippon/Nihon, Yamato, Empire of Japan",
         "historicalCapitals": "Kyoto, Edo (Tokyo)",
         "historicalPopulation": "Varies (Edo period approx. 30 million)",
         "historicalArea": "3,000,000 km² (Empire of Japan at peak)",
@@ -436,7 +436,7 @@
     {
         "country": "Norway",
         "foundingDate": "7 June 1905 (Independence from Sweden, establishment of modern Norway)",
-        "historicalNames": "Kingdom of Norway, Norway-Sweden Union",
+        "historicalNames": "Noregr, Norvegia, Kingdom of Norway, Norway-Sweden Union",
         "historicalCapitals": "Oslo, Bergen",
         "historicalPopulation": "Varies (Kingdom of Norway approx. 2 million)",
         "historicalArea": "385,207 km² (current)",
@@ -576,7 +576,7 @@
     {
         "country": "Spain",
         "foundingDate": "15 January 1479 (Union of the Crowns of Castile and Aragon, beginning of modern Spain)",
-        "historicalNames": "Kingdom of Spain, Iberian Union",
+        "historicalNames": "Iberia, Hispania, Al-Andalus, Kingdom of León, Kingdom of Castile, Kingdom of Aragon, Spanish Empire, Kingdom of Spain",
         "historicalCapitals": "Toledo, Madrid, Seville",
         "historicalPopulation": "Varies (Spanish Empire approx. 10-15 million)",
         "historicalArea": "13,000,000 km² (Spanish Empire at peak)",
@@ -590,7 +590,7 @@
     {
         "country": "Sweden",
         "foundingDate": "6 June 1523 (Establishment of the modern Kingdom of Sweden under Gustav Vasa)",
-        "historicalNames": "Kingdom of Sweden",
+        "historicalNames": "Svealand, Kingdom of Sweden",
         "historicalCapitals": "Uppsala, Stockholm, Kalmar",
         "historicalPopulation": "Varies (Kingdom of Sweden approx. 3 million)",
         "historicalArea": "450,295 km² (current)",
@@ -604,7 +604,7 @@
     {
         "country": "Switzerland",
         "foundingDate": "1 August 1291 (Formation of the Swiss Confederation, regarded as the founding of modern Switzerland)",
-        "historicalNames": "Swiss Confederation",
+        "historicalNames": "Helvetia, Old Swiss Confederacy, Helvetic Republic, Swiss Confederation",
         "historicalCapitals": "Zurich, Bern, Lausanne",
         "historicalPopulation": "Varies (Swiss Confederation approx. 1 million)",
         "historicalArea": "41,290 km² (current)",
@@ -842,7 +842,7 @@
     {
         "country": "Finland",
         "foundingDate": "6 December 1917 (Independence from Russia)",
-        "historicalNames": "Grand Duchy of Finland, Finland under Swedish rule, Russian Finland",
+        "historicalNames": "Suomi, Finlandia, Karelia, Grand Duchy of Finland",
         "historicalCapitals": "Helsinki, Turku, St. Petersburg",
         "historicalPopulation": "Varies (Grand Duchy of Finland approx. 2 million)",
         "historicalArea": "338,424 km² (current)",
@@ -1276,7 +1276,7 @@
     {
         "country": "Ukraine",
         "foundingDate": "24 August 1991 (Independence from the Soviet Union)",
-        "historicalNames": "Kievan Rus, Ukrainian Soviet Socialist Republic",
+        "historicalNames": "Scythia, Sarmatia, Kievan Rus, Cossack Hetmanate, Ukrainian Soviet Socialist Republic",
         "historicalCapitals": "Kyiv, Lviv, Kharkiv",
         "historicalPopulation": "Varies (Kievan Rus approx. 5 million)",
         "historicalArea": "603,550 km² (current)",

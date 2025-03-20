@@ -96,13 +96,13 @@ input::placeholder {
     margin: 0 auto;
     width: 100%;
 
-    @media (max-width: 1182px) {
+    /* @media (max-width: 1182px) {
         max-width: 970px;
     }
 
     @media (max-width: 993px) {
         max-width: 750px;
-    }
+    } */
 
     @media (max-width: 768px) {
         max-width: none;

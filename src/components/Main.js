@@ -2,9 +2,15 @@ import { useContext, useEffect } from "react";
 import MyContext from "../context/MyContext";
 import Map from "./Map";
 import Modal from "./Modal";
+import "./loading.css";
 
 function Main() {
-    const { modalShown, setModalShown, modalData, setModalData, loader, setLoader } = useContext(MyContext);
+    const { modalShown, loader, countryClicked } = useContext(MyContext);
+
+    useEffect(() => {
+        if (countryClicked && countryClicked !== "") document.title = document.title + ` − ${countryClicked}`; // changing document title
+        if (countryClicked === "") document.title = document.title.split(" ")[0]; // changing document title
+    }, [countryClicked]);
 
     return (
         <>

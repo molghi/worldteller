@@ -1,6 +1,3 @@
-.map-box {
-    /* position: relative; */
-}
 #map {
     background-color: #222;
     width: 100%;
@@ -18,29 +15,43 @@ h1 {
     padding: 5px 10px;
 }
 
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+
+/* LEAFLET POPUP */
+
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.leaflet-popup-tip {
+    background: rgba(255, 255, 255, 0.85) !important;
+}
+
 .leaflet-popup-content {
     pointer-events: none !important;
     white-space: nowrap;
-    /* font-size: 2.6rem; */
     font-family: "Share Tech Mono", "Monaco", "Courier New", monospace, sans-serif;
     color: #000;
     font-size: 1.6rem;
     padding-left: 0;
+    padding: 0 !important;
+    text-align: center;
     display: block;
 }
 
 .leaflet-popup-content span span {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .leaflet-popup {
     pointer-events: none !important;
     white-space: nowrap;
-    font-size: 1.6rem;
-    opacity: 0.8 !important;
+    font-size: 1.9rem;
     text-align: center;
     border-radius: 10px;
-    padding: 0;
+    padding: 0 !important;
 }
 
 .leaflet-popup-tip-container {
@@ -53,95 +64,22 @@ h1 {
 
 .leaflet-popup-content .text {
     display: block;
-    font-size: 1rem;
+    font-size: 1.05rem;
     text-align: center;
     opacity: 0.75;
     font-style: italic;
+    margin-top: 1.2rem;
+}
+
+.custom-popup .leaflet-popup-content {
+    white-space: nowrap !important;
+    width: auto !important;
+    max-width: none !important;
+    display: inline-block !important;
+}
+
+.popup-capital {
+    display: block;
+    font-size: 1.4rem !important;
     margin-top: 1rem;
-    /* margin-bottom: 0 !important; */
-}
-
-/* ================================================================================================ */
-
-.loader-box {
-    position: absolute;
-    z-index: 20000;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.loader-box:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.8;
-}
-
-.loader-box:before {
-    content: "Loading data...";
-    position: absolute;
-    z-index: 20001;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 5rem;
-    white-space: nowrap;
-    animation: pulse 0.5s linear infinite alternate;
-}
-
-.loader {
-    position: absolute;
-    z-index: 20001;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    width: 100rem;
-    height: 100rem;
-    margin: 0 auto;
-}
-
-.loader:after,
-.loader:before {
-    content: "";
-    width: 100rem;
-    height: 100rem;
-    border-radius: 50%;
-    border: 4px solid white;
-    position: absolute;
-    left: 0;
-    top: 0;
-    animation: animloader 2s linear infinite;
-}
-.loader:after {
-    animation-delay: 1s;
-}
-
-@keyframes animloader {
-    0% {
-        transform: scale(0);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
-@keyframes pulse {
-    0% {
-        opacity: 0.2;
-    }
-    100% {
-        opacity: 1;
-    }
 }

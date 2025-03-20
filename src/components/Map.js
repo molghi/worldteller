@@ -3,31 +3,26 @@ import { useEffect, useContext } from "react";
 import MyContext from "../context/MyContext";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import geojsonData from "../data/50m_countries.json";
-import getRandomColour from "../utilities/getRandomColour";
-import getCountryFromCoords from "../utilities/getCountryFromCoords";
-import fetchCountryFacts from "../utilities/fetchCountryFacts";
-import capitalsData from "../data/countryCapitalsQuickInfo.json";
+import mapLayerHandler from "../utilities/mapLayerHandler";
 
 // ================================================================================================
 
 function Map() {
-    const { setModalShown, setModalData, loader, setLoader } = useContext(MyContext);
-    const initialCoords = [31.7683, 35.2137];
+    const { setModalShown, setModalData, setLoader, setCountryClicked } = useContext(MyContext);
 
     useEffect(() => {
         const map = L.map("map", {
-            center: initialCoords,
-            zoom: 3,
+            center: [31.7683, 35.2137], // Yerushalayim
+            zoom: 3, // initial zoom level
             minZoom: 2, // minimum zoom level allowed
             maxZoom: 5, // maximum zoom level allowed
-            zoomControl: true, // enable zoom control
+            zoomControl: true, // enable zoom control?
             scrollWheelZoom: "center", // allow mouse wheel zoom (zooms to center)
             dragging: true, // enable dragging
         });
 
         L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png", {
-            attribution: '&copy; <a href="https://carto.com/attributions">CartoDB</a>',
+            attribution: '&copy; <a href="https://carto.com/attributions">CartoDB</a>', // setting the general style of the map (tiles style)
             noWrap: true, // prevents tiles from wrapping horizontally
         }).addTo(map);
 
@@ -35,65 +30,14 @@ function Map() {
             [-90, -180],
             [90, 180],
         ]);
-        map.setMaxBounds(bounds); // confines the map to valid coordinates, stopping horizontal scrolling
+        map.setMaxBounds(bounds); // confines the map to valid coordinates, stopping horizontal scrolling (map doesn't repeat horizontally)
 
-        // Styling function to apply to each country
-        const style = (feature) => {
-            return {
-                fillColor: getRandomColour(), // Random colour for each country
-                fillOpacity: 0.5, // Fill opacity
-                weight: 2, // Border width
-                opacity: 1,
-                color: "black", // Border colour
-                dashArray: "1", // Border style
-            };
-        };
-
-        // Create GeoJSON layer
-        const geoJsonLayer = L.geoJSON(geojsonData, {
-            style: style,
-            onEachFeature: (feature, layer) => {
-                // let marker;
-                layer.on({
-                    mouseover: async (e) => {
-                        layer.setStyle({
-                            fillColor: `rgb(125, 134, 142)`,
-                            fillOpacity: 1,
-                        });
-                        const countryName = feature.properties.ADMIN; // Or feature.properties.NAME
-                        console.log(countryName); // Log the country name
-                        const country = capitalsData.find((country) => country.name === countryName);
-                        console.log(country);
-                        const coords = country?.capitalCoords;
-                        const popupContent = `<span class='leaflet-popup-content'>
-                            ${country?.capital}, ${country?.name} <span>${country?.flag}</span><span class="text">Click to know more</span>
-                        </span>`; // Example content
-                        layer.bindPopup(popupContent, { closeButton: false }).openPopup(coords); // Open at cursor position
-                    },
-                    mouseout: (e) => {
-                        layer.closePopup();
-                        layer.setStyle({
-                            fillColor: getRandomColour(),
-                            fillOpacity: 0.5,
-                        });
-                    },
-                    click: async (e) => {
-                        console.log("Clicked on:", feature.properties.NAME);
-                        layer.unbindPopup(); // Unbind the popup on click, so it won't open
-                        setLoader(true);
-                        const data = await fetchCountryFacts(feature.properties.NAME);
-                        setLoader(false);
-                        setModalShown(true);
-                        setModalData(data);
-                    },
-                });
-            },
-        }).addTo(map);
+        mapLayerHandler(L, map, setModalShown, setModalData, setLoader, setCountryClicked); // handling the styling of each country, and actions on hover, unhover and click
 
         return () => {
-            map.remove(); // Clean up on unmount
+            map.remove(); // clean up on component unmount
         };
-    }, []);
+    }, [setLoader, setModalData, setModalShown, setCountryClicked]);
 
     return (
         <div className="map-box">
@@ -108,6 +52,8 @@ function Map() {
 export default Map;
 
 /* 
+TILES STYLES
+
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
@@ -117,6 +63,6 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 L.tileLayer("https://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png", {
-            attribution: '&copy; <a href="https://stamen.com/">Stamen Design</a>',
-        }).addTo(map);
+    attribution: '&copy; <a href="https://stamen.com/">Stamen Design</a>',
+}).addTo(map);
 */

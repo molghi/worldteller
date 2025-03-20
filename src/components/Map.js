@@ -7,11 +7,12 @@ import geojsonData from "../data/50m_countries.json";
 import getRandomColour from "../utilities/getRandomColour";
 import getCountryFromCoords from "../utilities/getCountryFromCoords";
 import fetchCountryFacts from "../utilities/fetchCountryFacts";
+import capitalsData from "../data/countryCapitalsQuickInfo.json";
 
 // ================================================================================================
 
 function Map() {
-    const { setModalShown, setModalData } = useContext(MyContext);
+    const { setModalShown, setModalData, loader, setLoader } = useContext(MyContext);
     const initialCoords = [31.7683, 35.2137];
 
     useEffect(() => {
@@ -61,11 +62,11 @@ function Map() {
                         });
                         const countryName = feature.properties.ADMIN; // Or feature.properties.NAME
                         console.log(countryName); // Log the country name
-                        const info = await fetchCountryFacts(feature.properties.NAME, false);
-                        console.log(info);
-                        const coords = { lat: info.capitalCoords[0], lng: info.capitalCoords[1] };
+                        const country = capitalsData.find((country) => country.name === countryName);
+                        console.log(country);
+                        const coords = country?.capitalCoords;
                         const popupContent = `<span class='leaflet-popup-content'>
-                            ${info.capital}, ${info.nameOnly} <span>${info.flagIcon}</span><span class="text">Click to know more</span>
+                            ${country?.capital}, ${country?.name} <span>${country?.flag}</span><span class="text">Click to know more</span>
                         </span>`; // Example content
                         layer.bindPopup(popupContent, { closeButton: false }).openPopup(coords); // Open at cursor position
                     },
@@ -79,7 +80,9 @@ function Map() {
                     click: async (e) => {
                         console.log("Clicked on:", feature.properties.NAME);
                         layer.unbindPopup(); // Unbind the popup on click, so it won't open
+                        setLoader(true);
                         const data = await fetchCountryFacts(feature.properties.NAME);
+                        setLoader(false);
                         setModalShown(true);
                         setModalData(data);
                     },

@@ -15,46 +15,54 @@ function Modal() {
     const hasAdditionalInfo2 = data2.map((x) => x.country).includes(modalData.nameOnly);
     const additionalData2 = data2.find((x) => x.country === modalData.nameOnly);
 
-    console.log(additionalData2);
+    // console.log(additionalData2);
+
+    const closeModal = (e) => {
+        if (e.target.classList.contains("modal-wrapper")) setModalShown(false);
+    };
 
     const additionalContent2 = !hasAdditionalInfo2 ? (
         ""
     ) : (
-        <>
-            <div className="modal-row">
+        <div className="modal-long-info">
+            <div className="modal-row modal-row--big">
                 <span>Notable Figures: </span>
                 <span>
-                    {additionalData2.notableFigures.split("\n").map((text, index) => (
+                    {additionalData2.notableFigures.split(/\\n/).map((text, index) => (
+                        // regex in 'split' because \n in my JSON data was stored as a literal string ("\\n"), not an actual newline character
                         <span key={index}>
                             {text}
+                            <br />
                             <br />
                         </span>
                     ))}
                 </span>
             </div>
-            <div className="modal-row">
+            <div className="modal-row modal-row--big">
                 <span>Culture Note: </span>
                 <span>
-                    {additionalData2.culture.split("\n").map((text, index) => (
+                    {additionalData2.culture.split(/\\n/).map((text, index) => (
                         <span key={index}>
                             {text}
+                            <br />
                             <br />
                         </span>
                     ))}
                 </span>
             </div>
-            <div className="modal-row">
-                <span>Climate: </span>
+            <div className="modal-row modal-row--big">
+                <span>Weather and Climate: </span>
                 <span>
-                    {additionalData2.weatherClimate.split("\n").map((text, index) => (
+                    {additionalData2.weatherClimate.split(/\\n/).map((text, index) => (
                         <span key={index}>
                             {text}
+                            <br />
                             <br />
                         </span>
                     ))}
                 </span>
             </div>
-        </>
+        </div>
     );
 
     const additionalContent = !hasAdditionalInfo ? (
@@ -73,7 +81,7 @@ function Modal() {
                 <span>Religions Practised: </span>
                 <span>{additionalData.religion}</span>
             </div>
-            <div className="modal-row">
+            <div className="modal-row modal-row--ethnic">
                 <span>Ethnic Groups: </span>
                 <span>{additionalData.ethnicGroups}</span>
             </div>
@@ -105,7 +113,7 @@ function Modal() {
     );
 
     const content = (
-        <div className="modal-wrapper">
+        <div onClick={closeModal} className="modal-wrapper">
             <div className="modal-window">
                 <button onClick={() => setModalShown(false)} className="modal-close">
                     close

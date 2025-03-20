@@ -4,13 +4,17 @@ import Map from "./Map";
 import Modal from "./Modal";
 
 function Main() {
-    const { modalShown, setModalShown, modalData, setModalData } = useContext(MyContext);
-    console.log(modalShown);
-    console.log(modalData);
+    const { modalShown, setModalShown, modalData, setModalData, loader, setLoader } = useContext(MyContext);
+
     return (
         <>
             <Map />
             {modalShown && <Modal />}
+            {loader && (
+                <div className="loader-box">
+                    <div className="loader"></div>
+                </div>
+            )}
         </>
     );
 }

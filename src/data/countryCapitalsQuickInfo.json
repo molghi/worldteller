@@ -1,0 +1,1747 @@
+[
+    {
+        "flag": "🇬🇸",
+        "name": "South Georgia",
+        "nameFull": "South Georgia and the South Sandwich Islands",
+        "capital": "King Edward Point",
+        "capitalCoords": [-54.28, -36.5]
+    },
+    {
+        "flag": "🇬🇩",
+        "name": "Grenada",
+        "nameFull": "Grenada",
+        "capital": "St. George's",
+        "capitalCoords": [32.38, -64.68]
+    },
+    {
+        "flag": "🇨🇭",
+        "name": "Switzerland",
+        "nameFull": "Swiss Confederation",
+        "capital": "Bern",
+        "capitalCoords": [46.92, 7.47]
+    },
+    {
+        "flag": "🇸🇱",
+        "name": "Sierra Leone",
+        "nameFull": "Republic of Sierra Leone",
+        "capital": "Freetown",
+        "capitalCoords": [8.48, -13.23]
+    },
+    {
+        "flag": "🇭🇺",
+        "name": "Hungary",
+        "nameFull": "Hungary",
+        "capital": "Budapest",
+        "capitalCoords": [47.5, 19.08]
+    },
+    {
+        "flag": "🇹🇼",
+        "name": "Taiwan",
+        "nameFull": "Republic of China (Taiwan)",
+        "capital": "Taipei",
+        "capitalCoords": [25.03, 121.52]
+    },
+    {
+        "flag": "🇼🇫",
+        "name": "Wallis and Futuna",
+        "nameFull": "Territory of the Wallis and Futuna Islands",
+        "capital": "Mata-Utu",
+        "capitalCoords": [-13.95, -171.93]
+    },
+    {
+        "flag": "🇧🇧",
+        "name": "Barbados",
+        "nameFull": "Barbados",
+        "capital": "Bridgetown",
+        "capitalCoords": [13.1, -59.62]
+    },
+    {
+        "flag": "🇵🇳",
+        "name": "Pitcairn Islands",
+        "nameFull": "Pitcairn Group of Islands",
+        "capital": "Adamstown",
+        "capitalCoords": [-25.07, -130.08]
+    },
+    {
+        "flag": "🇨🇮",
+        "name": "Ivory Coast",
+        "nameFull": "Republic of Côte d'Ivoire",
+        "capital": "Yamoussoukro",
+        "capitalCoords": [6.82, -5.27]
+    },
+    {
+        "flag": "🇹🇳",
+        "name": "Tunisia",
+        "nameFull": "Tunisian Republic",
+        "capital": "Tunis",
+        "capitalCoords": [36.8, 10.18]
+    },
+    {
+        "flag": "🇮🇹",
+        "name": "Italy",
+        "nameFull": "Italian Republic",
+        "capital": "Rome",
+        "capitalCoords": [41.9, 12.48]
+    },
+    {
+        "flag": "🇧🇯",
+        "name": "Benin",
+        "nameFull": "Republic of Benin",
+        "capital": "Porto-Novo",
+        "capitalCoords": [6.48, 2.62]
+    },
+    {
+        "flag": "🇮🇩",
+        "name": "Indonesia",
+        "nameFull": "Republic of Indonesia",
+        "capital": "Jakarta",
+        "capitalCoords": [-6.17, 106.82]
+    },
+    {
+        "flag": "🇨🇻",
+        "name": "Cape Verde",
+        "nameFull": "Republic of Cabo Verde",
+        "capital": "Praia",
+        "capitalCoords": [14.92, -23.52]
+    },
+    {
+        "flag": "🇰🇳",
+        "name": "Saint Kitts and Nevis",
+        "nameFull": "Federation of Saint Christopher and Nevis",
+        "capital": "Basseterre",
+        "capitalCoords": [17.3, -62.72]
+    },
+    {
+        "flag": "🇱🇦",
+        "name": "Laos",
+        "nameFull": "Lao People's Democratic Republic",
+        "capital": "Vientiane",
+        "capitalCoords": [17.97, 102.6]
+    },
+    {
+        "flag": "🇧🇶",
+        "name": "Caribbean Netherlands",
+        "nameFull": "Bonaire, Sint Eustatius and Saba",
+        "capital": "Kralendijk",
+        "capitalCoords": [12.14, -68.27]
+    },
+    {
+        "flag": "🇺🇬",
+        "name": "Uganda",
+        "nameFull": "Republic of Uganda",
+        "capital": "Kampala",
+        "capitalCoords": [0.32, 32.55]
+    },
+    {
+        "flag": "🇦🇩",
+        "name": "Andorra",
+        "nameFull": "Principality of Andorra",
+        "capital": "Andorra la Vella",
+        "capitalCoords": [42.5, 1.52]
+    },
+    {
+        "flag": "🇧🇮",
+        "name": "Burundi",
+        "nameFull": "Republic of Burundi",
+        "capital": "Gitega",
+        "capitalCoords": [-3.43, 29.93]
+    },
+    {
+        "flag": "🇿🇦",
+        "name": "South Africa",
+        "nameFull": "Republic of South Africa",
+        "capital": "Pretoria, Bloemfontein, Cape Town",
+        "capitalCoords": [-25.7, 28.22]
+    },
+    {
+        "flag": "🇫🇷",
+        "name": "France",
+        "nameFull": "French Republic",
+        "capital": "Paris",
+        "capitalCoords": [48.87, 2.33]
+    },
+    {
+        "flag": "🇱🇾",
+        "name": "Libya",
+        "nameFull": "State of Libya",
+        "capital": "Tripoli",
+        "capitalCoords": [32.88, 13.17]
+    },
+    {
+        "flag": "🇲🇽",
+        "name": "Mexico",
+        "nameFull": "United Mexican States",
+        "capital": "Mexico City",
+        "capitalCoords": [19.43, -99.13]
+    },
+    {
+        "flag": "🇬🇦",
+        "name": "Gabon",
+        "nameFull": "Gabonese Republic",
+        "capital": "Libreville",
+        "capitalCoords": [0.38, 9.45]
+    },
+    {
+        "flag": "🇲🇵",
+        "name": "Northern Mariana Islands",
+        "nameFull": "Commonwealth of the Northern Mariana Islands",
+        "capital": "Saipan",
+        "capitalCoords": [15.2, 145.75]
+    },
+    {
+        "flag": "🇲🇰",
+        "name": "North Macedonia",
+        "nameFull": "Republic of North Macedonia",
+        "capital": "Skopje",
+        "capitalCoords": [42, 21.43]
+    },
+    {
+        "flag": "🇨🇳",
+        "name": "China",
+        "nameFull": "People's Republic of China",
+        "capital": "Beijing",
+        "capitalCoords": [39.92, 116.38]
+    },
+    {
+        "flag": "🇾🇪",
+        "name": "Yemen",
+        "nameFull": "Republic of Yemen",
+        "capital": "Sana'a",
+        "capitalCoords": [15.37, 44.19]
+    },
+    {
+        "flag": "🇧🇱",
+        "name": "Saint Barthélemy",
+        "nameFull": "Collectivity of Saint Barthélemy",
+        "capital": "Gustavia",
+        "capitalCoords": [17.88, -62.85]
+    },
+    {
+        "flag": "🇬🇬",
+        "name": "Guernsey",
+        "nameFull": "Bailiwick of Guernsey",
+        "capital": "St. Peter Port",
+        "capitalCoords": [49.45, -2.54]
+    },
+    {
+        "flag": "🇸🇧",
+        "name": "Solomon Islands",
+        "nameFull": "Solomon Islands",
+        "capital": "Honiara",
+        "capitalCoords": [-9.43, 159.95]
+    },
+    {
+        "flag": "🇸🇯",
+        "name": "Svalbard and Jan Mayen",
+        "nameFull": "Svalbard og Jan Mayen",
+        "capital": "Longyearbyen",
+        "capitalCoords": [78.22, 15.63]
+    },
+    {
+        "flag": "🇫🇴",
+        "name": "Faroe Islands",
+        "nameFull": "Faroe Islands",
+        "capital": "Tórshavn",
+        "capitalCoords": [62.01, -6.77]
+    },
+    {
+        "flag": "🇺🇿",
+        "name": "Uzbekistan",
+        "nameFull": "Republic of Uzbekistan",
+        "capital": "Tashkent",
+        "capitalCoords": [41.32, 69.25]
+    },
+    {
+        "flag": "🇪🇬",
+        "name": "Egypt",
+        "nameFull": "Arab Republic of Egypt",
+        "capital": "Cairo",
+        "capitalCoords": [30.05, 31.25]
+    },
+    {
+        "flag": "🇸🇳",
+        "name": "Senegal",
+        "nameFull": "Republic of Senegal",
+        "capital": "Dakar",
+        "capitalCoords": [14.73, -17.63]
+    },
+    {
+        "flag": "🇱🇰",
+        "name": "Sri Lanka",
+        "nameFull": "Democratic Socialist Republic of Sri Lanka",
+        "capital": "Sri Jayawardenepura Kotte",
+        "capitalCoords": [6.89, 79.9]
+    },
+    {
+        "flag": "🇵🇸",
+        "name": "Palestine",
+        "nameFull": "State of Palestine",
+        "capital": "Ramallah, Jerusalem",
+        "capitalCoords": [31.9, 35.2]
+    },
+    {
+        "flag": "🇧🇩",
+        "name": "Bangladesh",
+        "nameFull": "People's Republic of Bangladesh",
+        "capital": "Dhaka",
+        "capitalCoords": [23.72, 90.4]
+    },
+    {
+        "flag": "🇵🇪",
+        "name": "Peru",
+        "nameFull": "Republic of Peru",
+        "capital": "Lima",
+        "capitalCoords": [-12.05, -77.05]
+    },
+    {
+        "flag": "🇸🇬",
+        "name": "Singapore",
+        "nameFull": "Republic of Singapore",
+        "capital": "Singapore",
+        "capitalCoords": [1.28, 103.85]
+    },
+    {
+        "flag": "🇹🇷",
+        "name": "Turkey",
+        "nameFull": "Republic of Turkey",
+        "capital": "Ankara",
+        "capitalCoords": [39.93, 32.87]
+    },
+    {
+        "flag": "🇦🇫",
+        "name": "Afghanistan",
+        "nameFull": "Islamic Republic of Afghanistan",
+        "capital": "Kabul",
+        "capitalCoords": [34.52, 69.18]
+    },
+    {
+        "flag": "🇦🇼",
+        "name": "Aruba",
+        "nameFull": "Aruba",
+        "capital": "Oranjestad",
+        "capitalCoords": [12.52, -70.03]
+    },
+    {
+        "flag": "🇨🇰",
+        "name": "Cook Islands",
+        "nameFull": "Cook Islands",
+        "capital": "Avarua",
+        "capitalCoords": [-21.2, -159.77]
+    },
+    {
+        "flag": "🇬🇧",
+        "name": "United Kingdom",
+        "nameFull": "United Kingdom of Great Britain and Northern Ireland",
+        "capital": "London",
+        "capitalCoords": [51.5, -0.08]
+    },
+    {
+        "flag": "🇿🇲",
+        "name": "Zambia",
+        "nameFull": "Republic of Zambia",
+        "capital": "Lusaka",
+        "capitalCoords": [-15.42, 28.28]
+    },
+    {
+        "flag": "🇫🇮",
+        "name": "Finland",
+        "nameFull": "Republic of Finland",
+        "capital": "Helsinki",
+        "capitalCoords": [60.17, 24.93]
+    },
+    {
+        "flag": "🇳🇪",
+        "name": "Niger",
+        "nameFull": "Republic of Niger",
+        "capital": "Niamey",
+        "capitalCoords": [13.52, 2.12]
+    },
+    {
+        "flag": "🇨🇽",
+        "name": "Christmas Island",
+        "nameFull": "Territory of Christmas Island",
+        "capital": "Flying Fish Cove",
+        "capitalCoords": [-10.42, 105.68]
+    },
+    {
+        "flag": "🇹🇰",
+        "name": "Tokelau",
+        "nameFull": "Tokelau",
+        "capital": "Fakaofo",
+        "capitalCoords": [-9.38, -171.22]
+    },
+    {
+        "flag": "🇬🇼",
+        "name": "Guinea-Bissau",
+        "nameFull": "Republic of Guinea-Bissau",
+        "capital": "Bissau",
+        "capitalCoords": [11.85, -15.58]
+    },
+    {
+        "flag": "🇦🇿",
+        "name": "Azerbaijan",
+        "nameFull": "Republic of Azerbaijan",
+        "capital": "Baku",
+        "capitalCoords": [40.38, 49.87]
+    },
+    {
+        "flag": "🇷🇪",
+        "name": "Réunion",
+        "nameFull": "Réunion Island",
+        "capital": "Saint-Denis",
+        "capitalCoords": [-20.88, 55.45]
+    },
+    {
+        "flag": "🇩🇯",
+        "name": "Djibouti",
+        "nameFull": "Republic of Djibouti",
+        "capital": "Djibouti",
+        "capitalCoords": [11.58, 43.15]
+    },
+    {
+        "flag": "🇰🇵",
+        "name": "North Korea",
+        "nameFull": "Democratic People's Republic of Korea",
+        "capital": "Pyongyang",
+        "capitalCoords": [39.02, 125.75]
+    },
+    {
+        "flag": "🇲🇺",
+        "name": "Mauritius",
+        "nameFull": "Republic of Mauritius",
+        "capital": "Port Louis",
+        "capitalCoords": [-20.15, 57.48]
+    },
+    {
+        "flag": "🇲🇸",
+        "name": "Montserrat",
+        "nameFull": "Montserrat",
+        "capital": "Plymouth",
+        "capitalCoords": [16.7, -62.22]
+    },
+    {
+        "flag": "🇻🇮",
+        "name": "United States Virgin Islands",
+        "nameFull": "Virgin Islands of the United States",
+        "capital": "Charlotte Amalie",
+        "capitalCoords": [18.35, -64.93]
+    },
+    {
+        "flag": "🇨🇴",
+        "name": "Colombia",
+        "nameFull": "Republic of Colombia",
+        "capital": "Bogotá",
+        "capitalCoords": [4.71, -74.07]
+    },
+    {
+        "flag": "🇬🇷",
+        "name": "Greece",
+        "nameFull": "Hellenic Republic",
+        "capital": "Athens",
+        "capitalCoords": [37.98, 23.73]
+    },
+    {
+        "flag": "🇭🇷",
+        "name": "Croatia",
+        "nameFull": "Republic of Croatia",
+        "capital": "Zagreb",
+        "capitalCoords": [45.8, 16]
+    },
+    {
+        "flag": "🇲🇦",
+        "name": "Morocco",
+        "nameFull": "Kingdom of Morocco",
+        "capital": "Rabat",
+        "capitalCoords": [34.02, -6.82]
+    },
+    {
+        "flag": "🇩🇿",
+        "name": "Algeria",
+        "nameFull": "People's Democratic Republic of Algeria",
+        "capital": "Algiers",
+        "capitalCoords": [36.75, 3.05]
+    },
+    {
+        "flag": "🇦🇶",
+        "name": "Antarctica",
+        "nameFull": "Antarctica",
+        "capital": ""
+    },
+    {
+        "flag": "🇳🇱",
+        "name": "Netherlands",
+        "nameFull": "Kingdom of the Netherlands",
+        "capital": "Amsterdam",
+        "capitalCoords": [52.35, 4.92]
+    },
+    {
+        "flag": "🇸🇩",
+        "name": "Sudan",
+        "nameFull": "Republic of the Sudan",
+        "capital": "Khartoum",
+        "capitalCoords": [15.6, 32.53]
+    },
+    {
+        "flag": "🇫🇯",
+        "name": "Fiji",
+        "nameFull": "Republic of Fiji",
+        "capital": "Suva",
+        "capitalCoords": [-18.13, 178.42]
+    },
+    {
+        "flag": "🇱🇮",
+        "name": "Liechtenstein",
+        "nameFull": "Principality of Liechtenstein",
+        "capital": "Vaduz",
+        "capitalCoords": [47.13, 9.52]
+    },
+    {
+        "flag": "🇳🇵",
+        "name": "Nepal",
+        "nameFull": "Federal Democratic Republic of Nepal",
+        "capital": "Kathmandu",
+        "capitalCoords": [27.72, 85.32]
+    },
+    {
+        "flag": "🇵🇷",
+        "name": "Puerto Rico",
+        "nameFull": "Commonwealth of Puerto Rico",
+        "capital": "San Juan",
+        "capitalCoords": [18.47, -66.12]
+    },
+    {
+        "flag": "🇬🇪",
+        "name": "Georgia",
+        "nameFull": "Georgia",
+        "capital": "Tbilisi",
+        "capitalCoords": [41.68, 44.83]
+    },
+    {
+        "flag": "🇵🇰",
+        "name": "Pakistan",
+        "nameFull": "Islamic Republic of Pakistan",
+        "capital": "Islamabad",
+        "capitalCoords": [33.68, 73.05]
+    },
+    {
+        "flag": "🇲🇨",
+        "name": "Monaco",
+        "nameFull": "Principality of Monaco",
+        "capital": "Monaco",
+        "capitalCoords": [43.73, 7.42]
+    },
+    {
+        "flag": "🇧🇼",
+        "name": "Botswana",
+        "nameFull": "Republic of Botswana",
+        "capital": "Gaborone",
+        "capitalCoords": [-24.63, 25.9]
+    },
+    {
+        "flag": "🇱🇧",
+        "name": "Lebanon",
+        "nameFull": "Lebanese Republic",
+        "capital": "Beirut",
+        "capitalCoords": [33.87, 35.5]
+    },
+    {
+        "flag": "🇵🇬",
+        "name": "Papua New Guinea",
+        "nameFull": "Independent State of Papua New Guinea",
+        "capital": "Port Moresby",
+        "capitalCoords": [-9.45, 147.18]
+    },
+    {
+        "flag": "🇾🇹",
+        "name": "Mayotte",
+        "nameFull": "Department of Mayotte",
+        "capital": "Mamoudzou",
+        "capitalCoords": [-12.78, 45.22]
+    },
+    {
+        "flag": "🇩🇴",
+        "name": "Dominican Republic",
+        "nameFull": "Dominican Republic",
+        "capital": "Santo Domingo",
+        "capitalCoords": [18.47, -69.9]
+    },
+    {
+        "flag": "🇳🇫",
+        "name": "Norfolk Island",
+        "nameFull": "Territory of Norfolk Island",
+        "capital": "Kingston",
+        "capitalCoords": [-29.05, 167.97]
+    },
+    {
+        "flag": "🇧🇻",
+        "name": "Bouvet Island",
+        "nameFull": "Bouvet Island",
+        "capital": ""
+    },
+    {
+        "flag": "🇶🇦",
+        "name": "Qatar",
+        "nameFull": "State of Qatar",
+        "capital": "Doha",
+        "capitalCoords": [25.28, 51.53]
+    },
+    {
+        "flag": "🇲🇬",
+        "name": "Madagascar",
+        "nameFull": "Republic of Madagascar",
+        "capital": "Antananarivo",
+        "capitalCoords": [-18.92, 47.52]
+    },
+    {
+        "flag": "🇮🇳",
+        "name": "India",
+        "nameFull": "Republic of India",
+        "capital": "New Delhi",
+        "capitalCoords": [28.6, 77.2]
+    },
+    {
+        "flag": "🇸🇾",
+        "name": "Syria",
+        "nameFull": "Syrian Arab Republic",
+        "capital": "Damascus",
+        "capitalCoords": [33.5, 36.3]
+    },
+    {
+        "flag": "🇲🇪",
+        "name": "Montenegro",
+        "nameFull": "Montenegro",
+        "capital": "Podgorica",
+        "capitalCoords": [42.43, 19.27]
+    },
+    {
+        "flag": "🇸🇿",
+        "name": "Eswatini",
+        "nameFull": "Kingdom of Eswatini",
+        "capital": "Mbabane",
+        "capitalCoords": [-26.32, 31.13]
+    },
+    {
+        "flag": "🇵🇾",
+        "name": "Paraguay",
+        "nameFull": "Republic of Paraguay",
+        "capital": "Asunción",
+        "capitalCoords": [-25.28, -57.57]
+    },
+    {
+        "flag": "🇸🇻",
+        "name": "El Salvador",
+        "nameFull": "Republic of El Salvador",
+        "capital": "San Salvador",
+        "capitalCoords": [13.7, -89.2]
+    },
+    {
+        "flag": "🇺🇦",
+        "name": "Ukraine",
+        "nameFull": "Ukraine",
+        "capital": "Kyiv",
+        "capitalCoords": [50.43, 30.52]
+    },
+    {
+        "flag": "🇮🇲",
+        "name": "Isle of Man",
+        "nameFull": "Isle of Man",
+        "capital": "Douglas",
+        "capitalCoords": [54.15, -4.48]
+    },
+    {
+        "flag": "🇳🇦",
+        "name": "Namibia",
+        "nameFull": "Republic of Namibia",
+        "capital": "Windhoek",
+        "capitalCoords": [-22.57, 17.08]
+    },
+    {
+        "flag": "🇦🇪",
+        "name": "United Arab Emirates",
+        "nameFull": "United Arab Emirates",
+        "capital": "Abu Dhabi",
+        "capitalCoords": [24.47, 54.37]
+    },
+    {
+        "flag": "🇧🇬",
+        "name": "Bulgaria",
+        "nameFull": "Republic of Bulgaria",
+        "capital": "Sofia",
+        "capitalCoords": [42.68, 23.32]
+    },
+    {
+        "flag": "🇬🇱",
+        "name": "Greenland",
+        "nameFull": "Greenland",
+        "capital": "Nuuk",
+        "capitalCoords": [64.18, -51.75]
+    },
+    {
+        "flag": "🇩🇪",
+        "name": "Germany",
+        "nameFull": "Federal Republic of Germany",
+        "capital": "Berlin",
+        "capitalCoords": [52.52, 13.4]
+    },
+    {
+        "flag": "🇰🇭",
+        "name": "Cambodia",
+        "nameFull": "Kingdom of Cambodia",
+        "capital": "Phnom Penh",
+        "capitalCoords": [11.55, 104.92]
+    },
+    {
+        "flag": "🇮🇶",
+        "name": "Iraq",
+        "nameFull": "Republic of Iraq",
+        "capital": "Baghdad",
+        "capitalCoords": [33.33, 44.4]
+    },
+    {
+        "flag": "🇹🇫",
+        "name": "French Southern and Antarctic Lands",
+        "nameFull": "Territory of the French Southern and Antarctic Lands",
+        "capital": "Port-aux-Français",
+        "capitalCoords": [48.81, -1.4]
+    },
+    {
+        "flag": "🇸🇪",
+        "name": "Sweden",
+        "nameFull": "Kingdom of Sweden",
+        "capital": "Stockholm",
+        "capitalCoords": [59.33, 18.05]
+    },
+    {
+        "flag": "🇨🇺",
+        "name": "Cuba",
+        "nameFull": "Republic of Cuba",
+        "capital": "Havana",
+        "capitalCoords": [23.12, -82.35]
+    },
+    {
+        "flag": "🇰🇬",
+        "name": "Kyrgyzstan",
+        "nameFull": "Kyrgyz Republic",
+        "capital": "Bishkek",
+        "capitalCoords": [42.87, 74.6]
+    },
+    {
+        "flag": "🇷🇺",
+        "name": "Russia",
+        "nameFull": "Russian Federation",
+        "capital": "Moscow",
+        "capitalCoords": [55.75, 37.6]
+    },
+    {
+        "flag": "🇲🇾",
+        "name": "Malaysia",
+        "nameFull": "Malaysia",
+        "capital": "Kuala Lumpur",
+        "capitalCoords": [3.17, 101.7]
+    },
+    {
+        "flag": "🇸🇹",
+        "name": "São Tomé and Príncipe",
+        "nameFull": "Democratic Republic of São Tomé and Príncipe",
+        "capital": "São Tomé",
+        "capitalCoords": [0.34, 6.73]
+    },
+    {
+        "flag": "🇨🇾",
+        "name": "Cyprus",
+        "nameFull": "Republic of Cyprus",
+        "capital": "Nicosia",
+        "capitalCoords": [35.17, 33.37]
+    },
+    {
+        "flag": "🇨🇦",
+        "name": "Canada",
+        "nameFull": "Canada",
+        "capital": "Ottawa",
+        "capitalCoords": [45.42, -75.7]
+    },
+    {
+        "flag": "🇲🇼",
+        "name": "Malawi",
+        "nameFull": "Republic of Malawi",
+        "capital": "Lilongwe",
+        "capitalCoords": [-13.97, 33.78]
+    },
+    {
+        "flag": "🇸🇦",
+        "name": "Saudi Arabia",
+        "nameFull": "Kingdom of Saudi Arabia",
+        "capital": "Riyadh",
+        "capitalCoords": [24.65, 46.7]
+    },
+    {
+        "flag": "🇧🇦",
+        "name": "Bosnia and Herzegovina",
+        "nameFull": "Bosnia and Herzegovina",
+        "capital": "Sarajevo",
+        "capitalCoords": [43.87, 18.42]
+    },
+    {
+        "flag": "🇪🇹",
+        "name": "Ethiopia",
+        "nameFull": "Federal Democratic Republic of Ethiopia",
+        "capital": "Addis Ababa",
+        "capitalCoords": [9.03, 38.7]
+    },
+    {
+        "flag": "🇪🇸",
+        "name": "Spain",
+        "nameFull": "Kingdom of Spain",
+        "capital": "Madrid",
+        "capitalCoords": [40.4, -3.68]
+    },
+    {
+        "flag": "🇸🇮",
+        "name": "Slovenia",
+        "nameFull": "Republic of Slovenia",
+        "capital": "Ljubljana",
+        "capitalCoords": [46.05, 14.52]
+    },
+    {
+        "flag": "🇴🇲",
+        "name": "Oman",
+        "nameFull": "Sultanate of Oman",
+        "capital": "Muscat",
+        "capitalCoords": [23.62, 58.58]
+    },
+    {
+        "flag": "🇵🇲",
+        "name": "Saint Pierre and Miquelon",
+        "nameFull": "Saint Pierre and Miquelon",
+        "capital": "Saint-Pierre",
+        "capitalCoords": [46.77, -56.18]
+    },
+    {
+        "flag": "🇲🇴",
+        "name": "Macau",
+        "nameFull": "Macao Special Administrative Region of the People's Republic of China",
+        "capital": ""
+    },
+    {
+        "flag": "🇸🇲",
+        "name": "San Marino",
+        "nameFull": "Republic of San Marino",
+        "capital": "City of San Marino",
+        "capitalCoords": [43.94, 12.45]
+    },
+    {
+        "flag": "🇱🇸",
+        "name": "Lesotho",
+        "nameFull": "Kingdom of Lesotho",
+        "capital": "Maseru",
+        "capitalCoords": [-29.32, 27.48]
+    },
+    {
+        "flag": "🇲🇭",
+        "name": "Marshall Islands",
+        "nameFull": "Republic of the Marshall Islands",
+        "capital": "Majuro",
+        "capitalCoords": [7.1, 171.38]
+    },
+    {
+        "flag": "🇸🇽",
+        "name": "Sint Maarten",
+        "nameFull": "Sint Maarten",
+        "capital": "Philipsburg",
+        "capitalCoords": [18.02, -63.03]
+    },
+    {
+        "flag": "🇮🇸",
+        "name": "Iceland",
+        "nameFull": "Iceland",
+        "capital": "Reykjavik",
+        "capitalCoords": [64.15, -21.95]
+    },
+    {
+        "flag": "🇱🇺",
+        "name": "Luxembourg",
+        "nameFull": "Grand Duchy of Luxembourg",
+        "capital": "Luxembourg",
+        "capitalCoords": [49.6, 6.12]
+    },
+    {
+        "flag": "🇦🇷",
+        "name": "Argentina",
+        "nameFull": "Argentine Republic",
+        "capital": "Buenos Aires",
+        "capitalCoords": [-34.58, -58.67]
+    },
+    {
+        "flag": "🇹🇨",
+        "name": "Turks and Caicos Islands",
+        "nameFull": "Turks and Caicos Islands",
+        "capital": "Cockburn Town",
+        "capitalCoords": [21.46, -71.14]
+    },
+    {
+        "flag": "🇳🇷",
+        "name": "Nauru",
+        "nameFull": "Republic of Nauru",
+        "capital": "Yaren",
+        "capitalCoords": [-0.55, 166.92]
+    },
+    {
+        "flag": "🇨🇨",
+        "name": "Cocos (Keeling) Islands",
+        "nameFull": "Territory of the Cocos (Keeling) Islands",
+        "capital": "West Island",
+        "capitalCoords": [-12.17, 96.83]
+    },
+    {
+        "flag": "🇪🇭",
+        "name": "Western Sahara",
+        "nameFull": "Sahrawi Arab Democratic Republic",
+        "capital": "El Aaiún",
+        "capitalCoords": [-13.28, 27.14]
+    },
+    {
+        "flag": "🇩🇲",
+        "name": "Dominica",
+        "nameFull": "Commonwealth of Dominica",
+        "capital": "Roseau",
+        "capitalCoords": [15.3, -61.4]
+    },
+    {
+        "flag": "🇨🇷",
+        "name": "Costa Rica",
+        "nameFull": "Republic of Costa Rica",
+        "capital": "San José",
+        "capitalCoords": [9.93, -84.09]
+    },
+    {
+        "flag": "🇦🇺",
+        "name": "Australia",
+        "nameFull": "Commonwealth of Australia",
+        "capital": "Canberra",
+        "capitalCoords": [-35.27, 149.13]
+    },
+    {
+        "flag": "🇹🇭",
+        "name": "Thailand",
+        "nameFull": "Kingdom of Thailand",
+        "capital": "Bangkok",
+        "capitalCoords": [13.75, 100.52]
+    },
+    {
+        "flag": "🇭🇹",
+        "name": "Haiti",
+        "nameFull": "Republic of Haiti",
+        "capital": "Port-au-Prince",
+        "capitalCoords": [18.53, -72.33]
+    },
+    {
+        "flag": "🇹🇻",
+        "name": "Tuvalu",
+        "nameFull": "Tuvalu",
+        "capital": "Funafuti",
+        "capitalCoords": [-8.52, 179.22]
+    },
+    {
+        "flag": "🇭🇳",
+        "name": "Honduras",
+        "nameFull": "Republic of Honduras",
+        "capital": "Tegucigalpa",
+        "capitalCoords": [14.1, -87.22]
+    },
+    {
+        "flag": "🇬🇶",
+        "name": "Equatorial Guinea",
+        "nameFull": "Republic of Equatorial Guinea",
+        "capital": "Malabo",
+        "capitalCoords": [3.75, 8.78]
+    },
+    {
+        "flag": "🇱🇨",
+        "name": "Saint Lucia",
+        "nameFull": "Saint Lucia",
+        "capital": "Castries",
+        "capitalCoords": [14, -61]
+    },
+    {
+        "flag": "🇵🇫",
+        "name": "French Polynesia",
+        "nameFull": "French Polynesia",
+        "capital": "Papeetē",
+        "capitalCoords": [-17.53, -149.56]
+    },
+    {
+        "flag": "🇧🇾",
+        "name": "Belarus",
+        "nameFull": "Republic of Belarus",
+        "capital": "Minsk",
+        "capitalCoords": [53.9, 27.57]
+    },
+    {
+        "flag": "🇱🇻",
+        "name": "Latvia",
+        "nameFull": "Republic of Latvia",
+        "capital": "Riga",
+        "capitalCoords": [56.95, 24.1]
+    },
+    {
+        "flag": "🇵🇼",
+        "name": "Palau",
+        "nameFull": "Republic of Palau",
+        "capital": "Ngerulmud",
+        "capitalCoords": [7.5, 134.62]
+    },
+    {
+        "flag": "🇬🇵",
+        "name": "Guadeloupe",
+        "nameFull": "Guadeloupe",
+        "capital": "Basse-Terre",
+        "capitalCoords": [16.03, -61.73]
+    },
+    {
+        "flag": "🇵🇭",
+        "name": "Philippines",
+        "nameFull": "Republic of the Philippines",
+        "capital": "Manila",
+        "capitalCoords": [14.6, 120.97]
+    },
+    {
+        "flag": "🇬🇮",
+        "name": "Gibraltar",
+        "nameFull": "Gibraltar",
+        "capital": "Gibraltar",
+        "capitalCoords": [36.13, -5.35]
+    },
+    {
+        "flag": "🇩🇰",
+        "name": "Denmark",
+        "nameFull": "Kingdom of Denmark",
+        "capital": "Copenhagen",
+        "capitalCoords": [55.67, 12.58]
+    },
+    {
+        "flag": "🇨🇲",
+        "name": "Cameroon",
+        "nameFull": "Republic of Cameroon",
+        "capital": "Yaoundé",
+        "capitalCoords": [3.85, 11.5]
+    },
+    {
+        "flag": "🇬🇳",
+        "name": "Guinea",
+        "nameFull": "Republic of Guinea",
+        "capital": "Conakry",
+        "capitalCoords": [9.5, -13.7]
+    },
+    {
+        "flag": "🇧🇭",
+        "name": "Bahrain",
+        "nameFull": "Kingdom of Bahrain",
+        "capital": "Manama",
+        "capitalCoords": [26.23, 50.57]
+    },
+    {
+        "flag": "🇸🇷",
+        "name": "Suriname",
+        "nameFull": "Republic of Suriname",
+        "capital": "Paramaribo",
+        "capitalCoords": [5.83, -55.17]
+    },
+    {
+        "flag": "🇨🇩",
+        "name": "DR Congo",
+        "nameFull": "Democratic Republic of the Congo",
+        "capital": "Kinshasa",
+        "capitalCoords": [-4.32, 15.3]
+    },
+    {
+        "flag": "🇸🇴",
+        "name": "Somalia",
+        "nameFull": "Federal Republic of Somalia",
+        "capital": "Mogadishu",
+        "capitalCoords": [2.07, 45.33]
+    },
+    {
+        "flag": "🇨🇿",
+        "name": "Czechia",
+        "nameFull": "Czech Republic",
+        "capital": "Prague",
+        "capitalCoords": [50.08, 14.47]
+    },
+    {
+        "flag": "🇳🇨",
+        "name": "New Caledonia",
+        "nameFull": "New Caledonia",
+        "capital": "Nouméa",
+        "capitalCoords": [-22.27, 166.45]
+    },
+    {
+        "flag": "🇻🇺",
+        "name": "Vanuatu",
+        "nameFull": "Republic of Vanuatu",
+        "capital": "Port Vila",
+        "capitalCoords": [-17.73, 168.32]
+    },
+    {
+        "flag": "🇸🇭",
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "nameFull": "Saint Helena, Ascension and Tristan da Cunha",
+        "capital": "Jamestown",
+        "capitalCoords": [-15.93, -5.72]
+    },
+    {
+        "flag": "🇹🇬",
+        "name": "Togo",
+        "nameFull": "Togolese Republic",
+        "capital": "Lomé",
+        "capitalCoords": [6.14, 1.21]
+    },
+    {
+        "flag": "🇻🇬",
+        "name": "British Virgin Islands",
+        "nameFull": "Virgin Islands",
+        "capital": "Road Town",
+        "capitalCoords": [18.42, -64.62]
+    },
+    {
+        "flag": "🇰🇪",
+        "name": "Kenya",
+        "nameFull": "Republic of Kenya",
+        "capital": "Nairobi",
+        "capitalCoords": [-1.28, 36.82]
+    },
+    {
+        "flag": "🇳🇺",
+        "name": "Niue",
+        "nameFull": "Niue",
+        "capital": "Alofi",
+        "capitalCoords": [-19.02, -169.92]
+    },
+    {
+        "flag": "🇭🇲",
+        "name": "Heard Island and McDonald Islands",
+        "nameFull": "Heard Island and McDonald Islands",
+        "capital": ""
+    },
+    {
+        "flag": "🇷🇼",
+        "name": "Rwanda",
+        "nameFull": "Republic of Rwanda",
+        "capital": "Kigali",
+        "capitalCoords": [-1.95, 30.05]
+    },
+    {
+        "flag": "🇪🇪",
+        "name": "Estonia",
+        "nameFull": "Republic of Estonia",
+        "capital": "Tallinn",
+        "capitalCoords": [59.43, 24.72]
+    },
+    {
+        "flag": "🇷🇴",
+        "name": "Romania",
+        "nameFull": "Romania",
+        "capital": "Bucharest",
+        "capitalCoords": [44.43, 26.1]
+    },
+    {
+        "flag": "🇹🇹",
+        "name": "Trinidad and Tobago",
+        "nameFull": "Republic of Trinidad and Tobago",
+        "capital": "Port of Spain",
+        "capitalCoords": [10.65, -61.52]
+    },
+    {
+        "flag": "🇬🇾",
+        "name": "Guyana",
+        "nameFull": "Co-operative Republic of Guyana",
+        "capital": "Georgetown",
+        "capitalCoords": [6.8, -58.15]
+    },
+    {
+        "flag": "🇹🇱",
+        "name": "Timor-Leste",
+        "nameFull": "Democratic Republic of Timor-Leste",
+        "capital": "Dili",
+        "capitalCoords": [-8.58, 125.6]
+    },
+    {
+        "flag": "🇻🇳",
+        "name": "Vietnam",
+        "nameFull": "Socialist Republic of Vietnam",
+        "capital": "Hanoi",
+        "capitalCoords": [21.03, 105.85]
+    },
+    {
+        "flag": "🇺🇾",
+        "name": "Uruguay",
+        "nameFull": "Oriental Republic of Uruguay",
+        "capital": "Montevideo",
+        "capitalCoords": [-34.85, -56.17]
+    },
+    {
+        "flag": "🇻🇦",
+        "name": "Vatican City",
+        "nameFull": "Vatican City State",
+        "capital": "Vatican City",
+        "capitalCoords": [41.9, 12.45]
+    },
+    {
+        "flag": "🇭🇰",
+        "name": "Hong Kong",
+        "nameFull": "Hong Kong Special Administrative Region of the People's Republic of China",
+        "capital": "City of Victoria",
+        "capitalCoords": [22.267, 114.188]
+    },
+    {
+        "flag": "🇦🇹",
+        "name": "Austria",
+        "nameFull": "Republic of Austria",
+        "capital": "Vienna",
+        "capitalCoords": [48.2, 16.37]
+    },
+    {
+        "flag": "🇦🇬",
+        "name": "Antigua and Barbuda",
+        "nameFull": "Antigua and Barbuda",
+        "capital": "Saint John's",
+        "capitalCoords": [17.12, -61.85]
+    },
+    {
+        "flag": "🇹🇲",
+        "name": "Turkmenistan",
+        "nameFull": "Turkmenistan",
+        "capital": "Ashgabat",
+        "capitalCoords": [37.95, 58.38]
+    },
+    {
+        "flag": "🇲🇿",
+        "name": "Mozambique",
+        "nameFull": "Republic of Mozambique",
+        "capital": "Maputo",
+        "capitalCoords": [-25.95, 32.58]
+    },
+    {
+        "flag": "🇵🇦",
+        "name": "Panama",
+        "nameFull": "Republic of Panama",
+        "capital": "Panama City",
+        "capitalCoords": [8.97, -79.53]
+    },
+    {
+        "flag": "🇫🇲",
+        "name": "Micronesia",
+        "nameFull": "Federated States of Micronesia",
+        "capital": "Palikir",
+        "capitalCoords": [6.92, 158.15]
+    },
+    {
+        "flag": "🇮🇪",
+        "name": "Ireland",
+        "nameFull": "Republic of Ireland",
+        "capital": "Dublin",
+        "capitalCoords": [53.32, -6.23]
+    },
+    {
+        "flag": "🇨🇼",
+        "name": "Curaçao",
+        "nameFull": "Country of Curaçao",
+        "capital": "Willemstad",
+        "capitalCoords": [12.1, -68.92]
+    },
+    {
+        "flag": "🇬🇫",
+        "name": "French Guiana",
+        "nameFull": "Guiana",
+        "capital": "Cayenne",
+        "capitalCoords": [4.94, -52.33]
+    },
+    {
+        "flag": "🇳🇴",
+        "name": "Norway",
+        "nameFull": "Kingdom of Norway",
+        "capital": "Oslo",
+        "capitalCoords": [59.92, 10.75]
+    },
+    {
+        "flag": "🇦🇽",
+        "name": "Åland Islands",
+        "nameFull": "Åland Islands",
+        "capital": "Mariehamn",
+        "capitalCoords": [60.12, 19.9]
+    },
+    {
+        "flag": "🇨🇫",
+        "name": "Central African Republic",
+        "nameFull": "Central African Republic",
+        "capital": "Bangui",
+        "capitalCoords": [4.37, 18.58]
+    },
+    {
+        "flag": "🇧🇫",
+        "name": "Burkina Faso",
+        "nameFull": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "capitalCoords": [12.37, -1.52]
+    },
+    {
+        "flag": "🇪🇷",
+        "name": "Eritrea",
+        "nameFull": "State of Eritrea",
+        "capital": "Asmara",
+        "capitalCoords": [15.33, 38.93]
+    },
+    {
+        "flag": "🇹🇿",
+        "name": "Tanzania",
+        "nameFull": "United Republic of Tanzania",
+        "capital": "Dodoma",
+        "capitalCoords": [-6.16, 35.75]
+    },
+    {
+        "flag": "🇰🇷",
+        "name": "South Korea",
+        "nameFull": "Republic of Korea",
+        "capital": "Seoul",
+        "capitalCoords": [37.55, 126.98]
+    },
+    {
+        "flag": "🇯🇴",
+        "name": "Jordan",
+        "nameFull": "Hashemite Kingdom of Jordan",
+        "capital": "Amman",
+        "capitalCoords": [31.95, 35.93]
+    },
+    {
+        "flag": "🇲🇷",
+        "name": "Mauritania",
+        "nameFull": "Islamic Republic of Mauritania",
+        "capital": "Nouakchott",
+        "capitalCoords": [18.07, -15.97]
+    },
+    {
+        "flag": "🇱🇹",
+        "name": "Lithuania",
+        "nameFull": "Republic of Lithuania",
+        "capital": "Vilnius",
+        "capitalCoords": [54.68, 25.32]
+    },
+    {
+        "flag": "🇺🇲",
+        "name": "United States Minor Outlying Islands",
+        "nameFull": "United States Minor Outlying Islands",
+        "capital": "Washington DC"
+    },
+    {
+        "flag": "🇸🇰",
+        "name": "Slovakia",
+        "nameFull": "Slovak Republic",
+        "capital": "Bratislava",
+        "capitalCoords": [48.15, 17.12]
+    },
+    {
+        "flag": "🇦🇴",
+        "name": "Angola",
+        "nameFull": "Republic of Angola",
+        "capital": "Luanda",
+        "capitalCoords": [-8.83, 13.22]
+    },
+    {
+        "flag": "🇰🇿",
+        "name": "Kazakhstan",
+        "nameFull": "Republic of Kazakhstan",
+        "capital": "Nur-Sultan",
+        "capitalCoords": [51.16, 71.45]
+    },
+    {
+        "flag": "🇲🇩",
+        "name": "Moldova",
+        "nameFull": "Republic of Moldova",
+        "capital": "Chișinău",
+        "capitalCoords": [47.01, 28.9]
+    },
+    {
+        "flag": "🇲🇱",
+        "name": "Mali",
+        "nameFull": "Republic of Mali",
+        "capital": "Bamako",
+        "capitalCoords": [12.65, -8]
+    },
+    {
+        "flag": "🇫🇰",
+        "name": "Falkland Islands",
+        "nameFull": "Falkland Islands",
+        "capital": "Stanley",
+        "capitalCoords": [-51.7, -57.85]
+    },
+    {
+        "flag": "🇦🇲",
+        "name": "Armenia",
+        "nameFull": "Republic of Armenia",
+        "capital": "Yerevan",
+        "capitalCoords": [40.17, 44.5]
+    },
+    {
+        "flag": "🇼🇸",
+        "name": "Samoa",
+        "nameFull": "Independent State of Samoa",
+        "capital": "Apia",
+        "capitalCoords": [-13.82, -171.77]
+    },
+    {
+        "flag": "🇯🇪",
+        "name": "Jersey",
+        "nameFull": "Bailiwick of Jersey",
+        "capital": "Saint Helier",
+        "capitalCoords": [49.18, -2.1]
+    },
+    {
+        "flag": "🇯🇵",
+        "name": "Japan",
+        "nameFull": "Japan",
+        "capital": "Tokyo",
+        "capitalCoords": [35.68, 139.75]
+    },
+    {
+        "flag": "🇧🇴",
+        "name": "Bolivia",
+        "nameFull": "Plurinational State of Bolivia",
+        "capital": "Sucre",
+        "capitalCoords": [-19.02, -65.26]
+    },
+    {
+        "flag": "🇨🇱",
+        "name": "Chile",
+        "nameFull": "Republic of Chile",
+        "capital": "Santiago",
+        "capitalCoords": [-33.45, -70.67]
+    },
+    {
+        "flag": "🇺🇸",
+        "name": "United States",
+        "nameFull": "United States of America",
+        "capital": "Washington, D.C.",
+        "capitalCoords": [38.89, -77.05]
+    },
+    {
+        "flag": "🇻🇨",
+        "name": "Saint Vincent and the Grenadines",
+        "nameFull": "Saint Vincent and the Grenadines",
+        "capital": "Kingstown",
+        "capitalCoords": [13.13, -61.22]
+    },
+    {
+        "flag": "🇧🇲",
+        "name": "Bermuda",
+        "nameFull": "Bermuda",
+        "capital": "Hamilton",
+        "capitalCoords": [32.28, -64.78]
+    },
+    {
+        "flag": "🇸🇨",
+        "name": "Seychelles",
+        "nameFull": "Republic of Seychelles",
+        "capital": "Victoria",
+        "capitalCoords": [-4.62, 55.45]
+    },
+    {
+        "flag": "🇮🇴",
+        "name": "British Indian Ocean Territory",
+        "nameFull": "British Indian Ocean Territory",
+        "capital": "Diego Garcia",
+        "capitalCoords": [-7.3, 72.4]
+    },
+    {
+        "flag": "🇬🇹",
+        "name": "Guatemala",
+        "nameFull": "Republic of Guatemala",
+        "capital": "Guatemala City",
+        "capitalCoords": [14.62, -90.52]
+    },
+    {
+        "flag": "🇪🇨",
+        "name": "Ecuador",
+        "nameFull": "Republic of Ecuador",
+        "capital": "Quito",
+        "capitalCoords": [-0.22, -78.5]
+    },
+    {
+        "flag": "🇲🇶",
+        "name": "Martinique",
+        "nameFull": "Martinique",
+        "capital": "Fort-de-France",
+        "capitalCoords": [14.6, -61.08]
+    },
+    {
+        "flag": "🇹🇯",
+        "name": "Tajikistan",
+        "nameFull": "Republic of Tajikistan",
+        "capital": "Dushanbe",
+        "capitalCoords": [38.55, 68.77]
+    },
+    {
+        "flag": "🇲🇹",
+        "name": "Malta",
+        "nameFull": "Republic of Malta",
+        "capital": "Valletta",
+        "capitalCoords": [35.88, 14.5]
+    },
+    {
+        "flag": "🇬🇲",
+        "name": "Gambia",
+        "nameFull": "Republic of the Gambia",
+        "capital": "Banjul",
+        "capitalCoords": [13.45, -16.57]
+    },
+    {
+        "flag": "🇳🇬",
+        "name": "Nigeria",
+        "nameFull": "Federal Republic of Nigeria",
+        "capital": "Abuja",
+        "capitalCoords": [9.08, 7.53]
+    },
+    {
+        "flag": "🇧🇸",
+        "name": "Bahamas",
+        "nameFull": "Commonwealth of the Bahamas",
+        "capital": "Nassau",
+        "capitalCoords": [25.08, -77.35]
+    },
+    {
+        "flag": "🇽🇰",
+        "name": "Kosovo",
+        "nameFull": "Republic of Kosovo",
+        "capital": "Pristina",
+        "capitalCoords": [42.67, 21.17]
+    },
+    {
+        "flag": "🇰🇼",
+        "name": "Kuwait",
+        "nameFull": "State of Kuwait",
+        "capital": "Kuwait City",
+        "capitalCoords": [29.37, 47.97]
+    },
+    {
+        "flag": "🇲🇻",
+        "name": "Maldives",
+        "nameFull": "Republic of the Maldives",
+        "capital": "Malé",
+        "capitalCoords": [4.17, 73.51]
+    },
+    {
+        "flag": "🇸🇸",
+        "name": "South Sudan",
+        "nameFull": "Republic of South Sudan",
+        "capital": "Juba",
+        "capitalCoords": [4.85, 31.62]
+    },
+    {
+        "flag": "🇮🇷",
+        "name": "Iran",
+        "nameFull": "Islamic Republic of Iran",
+        "capital": "Tehran",
+        "capitalCoords": [35.7, 51.42]
+    },
+    {
+        "flag": "🇦🇱",
+        "name": "Albania",
+        "nameFull": "Republic of Albania",
+        "capital": "Tirana",
+        "capitalCoords": [41.32, 19.82]
+    },
+    {
+        "flag": "🇧🇷",
+        "name": "Brazil",
+        "nameFull": "Federative Republic of Brazil",
+        "capital": "Brasília",
+        "capitalCoords": [-15.79, -47.88]
+    },
+    {
+        "flag": "🇷🇸",
+        "name": "Serbia",
+        "nameFull": "Republic of Serbia",
+        "capital": "Belgrade",
+        "capitalCoords": [44.83, 20.5]
+    },
+    {
+        "flag": "🇧🇿",
+        "name": "Belize",
+        "nameFull": "Belize",
+        "capital": "Belmopan",
+        "capitalCoords": [17.25, -88.77]
+    },
+    {
+        "flag": "🇲🇲",
+        "name": "Myanmar",
+        "nameFull": "Republic of the Union of Myanmar",
+        "capital": "Naypyidaw",
+        "capitalCoords": [19.76, 96.07]
+    },
+    {
+        "flag": "🇧🇹",
+        "name": "Bhutan",
+        "nameFull": "Kingdom of Bhutan",
+        "capital": "Thimphu",
+        "capitalCoords": [27.47, 89.63]
+    },
+    {
+        "flag": "🇻🇪",
+        "name": "Venezuela",
+        "nameFull": "Bolivarian Republic of Venezuela",
+        "capital": "Caracas",
+        "capitalCoords": [10.48, -66.87]
+    },
+    {
+        "flag": "🇱🇷",
+        "name": "Liberia",
+        "nameFull": "Republic of Liberia",
+        "capital": "Monrovia",
+        "capitalCoords": [6.3, -10.8]
+    },
+    {
+        "flag": "🇯🇲",
+        "name": "Jamaica",
+        "nameFull": "Jamaica",
+        "capital": "Kingston",
+        "capitalCoords": [17.99702, -76.79358]
+    },
+    {
+        "flag": "🇵🇱",
+        "name": "Poland",
+        "nameFull": "Republic of Poland",
+        "capital": "Warsaw",
+        "capitalCoords": [52.25, 21]
+    },
+    {
+        "flag": "🇰🇾",
+        "name": "Cayman Islands",
+        "nameFull": "Cayman Islands",
+        "capital": "George Town",
+        "capitalCoords": [19.3, -81.38]
+    },
+    {
+        "flag": "🇧🇳",
+        "name": "Brunei",
+        "nameFull": "Nation of Brunei, Abode of Peace",
+        "capital": "Bandar Seri Begawan",
+        "capitalCoords": [4.88, 114.93]
+    },
+    {
+        "flag": "🇰🇲",
+        "name": "Comoros",
+        "nameFull": "Union of the Comoros",
+        "capital": "Moroni",
+        "capitalCoords": [-11.7, 43.23]
+    },
+    {
+        "flag": "🇬🇺",
+        "name": "Guam",
+        "nameFull": "Guam",
+        "capital": "Hagåtña",
+        "capitalCoords": [13.48, 144.75]
+    },
+    {
+        "flag": "🇹🇴",
+        "name": "Tonga",
+        "nameFull": "Kingdom of Tonga",
+        "capital": "Nuku'alofa",
+        "capitalCoords": [-21.13, -175.2]
+    },
+    {
+        "flag": "🇰🇮",
+        "name": "Kiribati",
+        "nameFull": "Independent and Sovereign Republic of Kiribati",
+        "capital": "South Tarawa",
+        "capitalCoords": [1.33, 172.98]
+    },
+    {
+        "flag": "🇬🇭",
+        "name": "Ghana",
+        "nameFull": "Republic of Ghana",
+        "capital": "Accra",
+        "capitalCoords": [5.55, -0.22]
+    },
+    {
+        "flag": "🇹🇩",
+        "name": "Chad",
+        "nameFull": "Republic of Chad",
+        "capital": "N'Djamena",
+        "capitalCoords": [12.1, 15.03]
+    },
+    {
+        "flag": "🇿🇼",
+        "name": "Zimbabwe",
+        "nameFull": "Republic of Zimbabwe",
+        "capital": "Harare",
+        "capitalCoords": [-17.82, 31.03]
+    },
+    {
+        "flag": "🇲🇫",
+        "name": "Saint Martin",
+        "nameFull": "Saint Martin",
+        "capital": "Marigot",
+        "capitalCoords": [18.07, -63.08]
+    },
+    {
+        "flag": "🇲🇳",
+        "name": "Mongolia",
+        "nameFull": "Mongolia",
+        "capital": "Ulan Bator",
+        "capitalCoords": [47.92, 106.91]
+    },
+    {
+        "flag": "🇵🇹",
+        "name": "Portugal",
+        "nameFull": "Portuguese Republic",
+        "capital": "Lisbon",
+        "capitalCoords": [38.72, -9.13]
+    },
+    {
+        "flag": "🇦🇸",
+        "name": "American Samoa",
+        "nameFull": "American Samoa",
+        "capital": "Pago Pago",
+        "capitalCoords": [-14.27, -170.7]
+    },
+    {
+        "flag": "🇨🇬",
+        "name": "Republic of the Congo",
+        "nameFull": "Republic of the Congo",
+        "capital": "Brazzaville",
+        "capitalCoords": [-4.25, 15.28]
+    },
+    {
+        "flag": "🇧🇪",
+        "name": "Belgium",
+        "nameFull": "Kingdom of Belgium",
+        "capital": "Brussels",
+        "capitalCoords": [50.83, 4.33]
+    },
+    {
+        "flag": "🇮🇱",
+        "name": "Israel",
+        "nameFull": "State of Israel",
+        "capital": "Jerusalem",
+        "capitalCoords": [31.77, 35.23]
+    },
+    {
+        "flag": "🇳🇿",
+        "name": "New Zealand",
+        "nameFull": "New Zealand",
+        "capital": "Wellington",
+        "capitalCoords": [-41.3, 174.78]
+    },
+    {
+        "flag": "🇳🇮",
+        "name": "Nicaragua",
+        "nameFull": "Republic of Nicaragua",
+        "capital": "Managua",
+        "capitalCoords": [12.13, -86.25]
+    },
+    {
+        "flag": "🇦🇮",
+        "name": "Anguilla",
+        "nameFull": "Anguilla",
+        "capital": "The Valley",
+        "capitalCoords": [18.22, -63.05]
+    }
+]

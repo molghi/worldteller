@@ -28,37 +28,41 @@ function getModalContent(modalData, setModalShown, setCountryClicked) {
             <div className="modal-row modal-row--big">
                 <span>Notable Figures: </span>
                 <span>
-                    {additionalData2.notableFigures.split(/\\n/).map((text, index) => (
-                        // regex in 'split' because \n in my JSON data was stored as a literal string ("\\n"), not an actual newline character
-                        <span key={index}>
-                            {text}
-                            <br />
-                            <br />
-                        </span>
+                    {additionalData2.notableFigures.map((figure, i) => (
+                        <div key={i} className="modal-figure">
+                            <div>{figure.name}</div>
+                            <div>{figure.field}</div>
+                            <div>{figure.text}</div>
+                        </div>
                     ))}
                 </span>
             </div>
             <div className="modal-row modal-row--big">
                 <span>Culture Note: </span>
                 <span>
-                    {additionalData2.culture.split(/\\n/).map((text, index) => (
-                        <span key={index}>
-                            {text}
-                            <br />
-                            <br />
-                        </span>
+                    {additionalData2.culture.map((item, i) => (
+                        <div key={i} className="modal-culture-note">
+                            <div>{item.title}</div>
+                            <div>{item.text}</div>
+                        </div>
                     ))}
                 </span>
             </div>
             <div className="modal-row modal-row--big">
                 <span>Weather and Climate: </span>
                 <span>
-                    {additionalData2.weatherClimate.split(/\\n/).map((text, index) => (
-                        <span key={index}>
-                            {text}
-                            <br />
-                            <br />
-                        </span>
+                    {additionalData2.weatherClimate.map((item, i) => (
+                        <div key={i} className="modal-weather">
+                            <>
+                                {typeof item !== "object"
+                                    ? item
+                                    : item.map((x, j) => (
+                                          <div className="modal-weather-data" key={j}>
+                                              {x}
+                                          </div>
+                                      ))}
+                            </>
+                        </div>
                     ))}
                 </span>
             </div>
@@ -92,7 +96,7 @@ function getModalContent(modalData, setModalShown, setCountryClicked) {
                 <span>Former Possessions: </span>
                 <span>{additionalData.formerPossessions}</span>
             </div>
-            <div className="modal-row">
+            <div className="modal-row modal-row--founding">
                 <span title="Date of foundation of the current version of the country">Founding Date: </span>
                 <span>{additionalData.foundingDate}</span>
             </div>
@@ -197,7 +201,7 @@ function getModalContent(modalData, setModalShown, setCountryClicked) {
                     <span>Currencies: </span>
                     <span>{modalData.currencies}</span>
                 </div>
-                <div className="modal-row">
+                <div className="modal-row modal-row--languages">
                     <span>Official Languages: </span>
                     <span>{modalData.languages}</span>
                 </div>

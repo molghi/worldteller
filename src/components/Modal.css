@@ -84,12 +84,15 @@
 .modal-location-wrapper,
 .modal-row--possessions,
 .modal-row--ethnic,
-.modal-row--names {
+.modal-row--names,
+.modal-row--languages {
     display: flex;
     column-gap: 1rem;
 }
 
-.modal-row--names span {
+.modal-row--names span,
+.modal-row--languages span,
+.modal-row--founding span {
     line-height: 1.7;
 }
 
@@ -129,12 +132,72 @@
 }
 
 .modal-row--big > span:nth-child(2) {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     line-height: 1.25;
 }
 
 .modal-long-info {
     margin-top: 6rem;
+}
+
+/* ======================================== */
+
+.modal-figure div + div {
+    margin-top: 1rem;
+}
+
+.modal-figure div:first-child {
+    font-weight: bold;
+}
+
+.modal-figure div:nth-child(2) {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.modal-figure div:not(.modal-figure div:first-child) {
+    margin-left: 3rem;
+}
+
+.modal-figure {
+    margin-bottom: 1.5rem;
+}
+
+.modal-figure div,
+.modal-culture-note div {
+    line-height: 1.25;
+}
+
+.modal-culture-note div + div {
+    margin-top: 1rem;
+}
+
+.modal-culture-note {
+    margin-bottom: 1rem;
+}
+
+.modal-culture-note div:first-child {
+    font-weight: bold;
+}
+
+.modal-culture-note div:last-child {
+    font-style: italic;
+    margin-left: 3rem;
+}
+
+.modal-weather,
+.modal-weather div {
+    margin-bottom: 1rem;
+    line-height: 1.25;
+}
+
+.modal-weather .modal-weather-data:nth-child(1) {
+    font-weight: bold;
+}
+
+.modal-weather .modal-weather-data:nth-child(2),
+.modal-weather .modal-weather-data:nth-child(3) {
+    margin-left: 3rem;
 }
 
 /* ======================================== */

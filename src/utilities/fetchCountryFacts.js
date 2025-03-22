@@ -22,6 +22,7 @@ async function fetchCountryFacts(countryName, additionalFetchFlag = true) {
         return dataFiltered;
     } catch (error) {
         console.error(`💥💥💥 Something failed...`, error);
+        return {};
     }
 }
 

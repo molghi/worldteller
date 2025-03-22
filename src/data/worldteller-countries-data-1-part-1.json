@@ -2728,5 +2728,19 @@
         "religion": "Christianity (predominantly Protestant)",
         "formerPossessions": "Zambezia, Mashonaland (regions in former British South Africa Company territories, which were part of colonial Zimbabwe)",
         "id": "9436a5bb-645a-47c4-b54c-abe084fc7458"
+    },
+    {
+        "country": "Greenland",
+        "foundingDate": "1979 (Home Rule Act); 2009 (Self-Government Act)",
+        "historicalNames": "Kalaallit Nunaat",
+        "historicalCapitals": "Nuuk",
+        "historicalPopulation": "Peak: ~57,000",
+        "historicalArea": "2,166,086 km²",
+        "languageFamily": "Eskimo-Aleut; Inuit as a notable historical ancestor",
+        "ethnicGroups": "Inuit, Danish, others",
+        "languagesSpoken": "Greenlandic, Danish",
+        "religion": "Christianity (predominantly Evangelical Lutheran)",
+        "formerPossessions": "Part of the Danish colonial empire; previously a Norse settlement",
+        "id": "2f366-645a-47c4-8526-abe084fc7458"
     }
 ]

@@ -4,11 +4,25 @@ import MyContext from "../context/MyContext";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import mapLayerHandler from "../utilities/mapLayerHandler";
+import { ReactComponent as SearchIcon } from "../images/magnifying-glass.svg";
 
 // ================================================================================================
 
 function Map() {
-    const { setModalShown, setModalData, setLoader, setCountryClicked } = useContext(MyContext);
+    const {
+        setModalShown,
+        setModalData,
+        setLoader,
+        setCountryClicked,
+        searchBox,
+        setSearchBox,
+        handleSearchSubmit,
+        search,
+        setSearch,
+        toggleSearchForm,
+        layersRef,
+        searchError,
+    } = useContext(MyContext);
 
     useEffect(() => {
         const map = L.map("map", {
@@ -32,7 +46,7 @@ function Map() {
         ]);
         map.setMaxBounds(bounds); // confines the map to valid coordinates, stopping horizontal scrolling (map doesn't repeat horizontally)
 
-        mapLayerHandler(L, map, setModalShown, setModalData, setLoader, setCountryClicked); // handling the styling of each country, and actions on hover, unhover and click
+        mapLayerHandler(L, map, setModalShown, setModalData, setLoader, setCountryClicked, layersRef, setSearchBox); // handling the styling of each country, and actions on hover, unhover and click
 
         return () => {
             map.remove(); // clean up on component unmount
@@ -41,7 +55,23 @@ function Map() {
 
     return (
         <div className="map-box">
+            <button onClick={toggleSearchForm} className="map-search" title="Find a country">
+                <SearchIcon />
+            </button>
             <h1 title="Geographical, historical and cultural facts about countries">Worldteller</h1>
+            {searchBox && (
+                <form onSubmit={handleSearchSubmit} className="map-form">
+                    <input
+                        autoFocus
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                        setLayer
+                        className="map-search-input"
+                        placeholder="Type and press Enter"
+                    />
+                    {searchError && <span className="map-search-error">{searchError}</span>}
+                </form>
+            )}
             <div id="map"></div>
         </div>
     );

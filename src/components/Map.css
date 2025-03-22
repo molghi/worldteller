@@ -83,3 +83,73 @@ h1 {
     font-size: 1.4rem !important;
     margin-top: 1rem;
 }
+
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+
+.map-search {
+    position: absolute;
+    z-index: 20000;
+    top: 0;
+    right: 15.2rem;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-search:hover {
+    border: 1px solid #000;
+    background-color: #ccc;
+}
+
+.map-search:active {
+    background-color: #999;
+}
+
+.map-form {
+    position: absolute;
+    z-index: 20000;
+    top: 4rem;
+    right: 1rem;
+    animation: showForm 0.1s ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes showForm {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.map-search-input {
+    background-color: #fff;
+    cursor: text;
+    color: #000;
+    font-size: 1.4rem;
+    padding: 3px 5px;
+    border: 1px solid #999;
+}
+
+.map-search-error {
+    position: absolute;
+    z-index: 20000;
+    right: 0;
+    padding: 3px;
+    line-height: 1.25;
+    top: 4rem;
+    color: #fff;
+    background-color: red;
+    font-size: 1.4rem;
+    width: 24rem;
+}

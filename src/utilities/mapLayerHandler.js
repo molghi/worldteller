@@ -5,15 +5,25 @@ import getRandomColour from "./getRandomColour";
 
 // ================================================================================================
 
-function mapLayerHandler(L, map, setModalShown, setModalData, setLoader, setCountryClicked) {
+function mapLayerHandler(L, map, setModalShown, setModalData, setLoader, setCountryClicked, layersRef, setSearchBox) {
     // Create GeoJSON layer
     // const geoJsonLayer =
     L.geoJSON(geojsonData, {
         style: style, // applying the styling function
         onEachFeature: (feature, layer) => {
+            layersRef.current[feature.properties.NAME] = layer;
             layer.on({
                 mouseover: async (e) => {
                     // happens on hover
+                    const allLayerClasses = Object.values(layersRef.current);
+                    const highlightedOnes = allLayerClasses.filter((x) => x.options.fillOpacity === 1); // only the highlighted layers
+                    if (highlightedOnes && highlightedOnes.length > 0)
+                        highlightedOnes.forEach((layer) => {
+                            layer.setStyle({
+                                fillColor: getRandomColour(),
+                                fillOpacity: 0.5,
+                            }); // de-highlighting first (if necessary)
+                        });
                     layer.setStyle({
                         fillColor: `rgb(125, 134, 142)`,
                         fillOpacity: 1,
@@ -61,6 +71,7 @@ function mapLayerHandler(L, map, setModalShown, setModalData, setLoader, setCoun
                     // on click
                     // console.log("Clicked on:", feature.properties.NAME);
                     setCountryClicked(feature.properties.NAME);
+                    setSearchBox(false);
                     layer.unbindPopup(); // Unbind the popup on click, so it doesn't open
                     setLoader(true); // show 'Loading...'
                     const data = await fetchCountryFacts(feature.properties.NAME); // fetch

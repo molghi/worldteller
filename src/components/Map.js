@@ -51,7 +51,7 @@ function Map() {
         return () => {
             map.remove(); // clean up on component unmount
         };
-    }, [setLoader, setModalData, setModalShown, setCountryClicked]);
+    }, [setLoader, setModalData, setModalShown, setCountryClicked, layersRef, setSearchBox]);
 
     return (
         <div className="map-box">

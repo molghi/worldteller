@@ -1,4 +1,4 @@
-import { TimeZoneDBAPIKey, OpenWeatherMapAPIKey } from "../config";
+// import { TimeZoneDBAPIKey, OpenWeatherMapAPIKey } from "../config";
 
 async function fetchCountryFacts(countryName, additionalFetchFlag = true) {
     try {
@@ -17,8 +17,9 @@ async function fetchCountryFacts(countryName, additionalFetchFlag = true) {
 
         if (!additionalFetchFlag) return dataFiltered; // returning without fetching capital time and weather
 
-        dataFiltered.capitalLocalTime = await getCapitalTime(dataFiltered.capitalCoords[0], dataFiltered.capitalCoords[1]);
-        dataFiltered.capitalAirTemp = await getCapitalTemp(dataFiltered.capitalCoords[0], dataFiltered.capitalCoords[1]);
+        // dataFiltered.capitalLocalTime = await getCapitalTime(dataFiltered.capitalCoords[0], dataFiltered.capitalCoords[1]);
+        // dataFiltered.capitalAirTemp = await getCapitalTemp(dataFiltered.capitalCoords[0], dataFiltered.capitalCoords[1]);
+        console.log(dataFiltered);
         return dataFiltered;
     } catch (error) {
         console.error(`💥💥💥 Something failed...`, error);
@@ -67,34 +68,34 @@ function filterCountryResponse(result) {
 // ================================================================================================
 
 // called in 'fetchCountryFacts'
-async function getCapitalTime(latitude, longitude) {
-    try {
-        const res = await fetch(
-            ` http://api.timezonedb.com/v2.1/get-time-zone?key=${TimeZoneDBAPIKey}&format=json&by=position&lat=${latitude}&lng=${longitude}`
-        );
-        if (!res.ok) throw new Error("Failed fetching capital time");
-        const data = await res.json();
-        return data.formatted;
-    } catch (error) {
-        console.error(`💥💥💥 Something failed while fetching capital time...`, error);
-    }
-}
+// async function getCapitalTime(latitude, longitude) {
+//     try {
+//         const res = await fetch(
+//             ` http://api.timezonedb.com/v2.1/get-time-zone?key=${TimeZoneDBAPIKey}&format=json&by=position&lat=${latitude}&lng=${longitude}`
+//         );
+//         if (!res.ok) throw new Error("Failed fetching capital time");
+//         const data = await res.json();
+//         return data.formatted;
+//     } catch (error) {
+//         console.error(`💥💥💥 Something failed while fetching capital time...`, error);
+//     }
+// }
 
 // ================================================================================================
 
 // called in 'fetchCountryFacts'
-async function getCapitalTemp(latitude, longitude) {
-    try {
-        const res = await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${OpenWeatherMapAPIKey}&units=metric`
-        );
-        if (!res.ok) throw new Error("Failed fetching capital temp");
-        const data = await res.json();
-        return `${Math.round(data.main.temp)}°C - ${data.weather[0].main}`;
-    } catch (error) {
-        console.error(`💥💥💥 Something failed while fetching capital weather...`, error);
-    }
-}
+// async function getCapitalTemp(latitude, longitude) {
+//     try {
+//         const res = await fetch(
+//             `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${OpenWeatherMapAPIKey}&units=metric`
+//         );
+//         if (!res.ok) throw new Error("Failed fetching capital temp");
+//         const data = await res.json();
+//         return `${Math.round(data.main.temp)}°C - ${data.weather[0].main}`;
+//     } catch (error) {
+//         console.error(`💥💥💥 Something failed while fetching capital weather...`, error);
+//     }
+// }
 
 // ================================================================================================
 

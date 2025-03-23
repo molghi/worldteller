@@ -187,14 +187,18 @@ function getModalContent(modalData, setModalShown, setCountryClicked) {
                                 )}
                             </span>
                         </div>
-                        <div className="modal-row">
-                            <span>Capital Date-Time: </span>
-                            <span>{formatDateTime(modalData.capitalLocalTime)}</span>
-                        </div>
-                        <div className="modal-row">
-                            <span>Capital Weather: </span>
-                            <span>{modalData.capitalAirTemp}</span>
-                        </div>
+                        {modalData.capitalLocalTime && (
+                            <div className="modal-row">
+                                <span>Capital Date-Time: </span>
+                                <span>{formatDateTime(modalData.capitalLocalTime)}</span>
+                            </div>
+                        )}
+                        {modalData.capitalAirTemp && (
+                            <div className="modal-row">
+                                <span>Capital Weather: </span>
+                                <span>{modalData.capitalAirTemp}</span>
+                            </div>
+                        )}
                     </div>
 
                     <div className="modal-bigger-row">
